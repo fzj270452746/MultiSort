@@ -1,9 +1,4 @@
-//
-//  PodrozGry+Instrukcje.swift
-//  MultiSort
-//
-//  Created by Zhao on 2025/11/5.
-//
+
 
 import UIKit
 
@@ -176,4 +171,5 @@ extension PodrozGry {
         naczynie.layer.add(animacjaPulsowania, forKey: "animacjaPulsowania")
     }
 }
+
 

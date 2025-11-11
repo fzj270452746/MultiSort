@@ -1,9 +1,3 @@
-//
-//  KontrolerWyboruTrybu.swift
-//  MultiSort
-//
-//  Created by Zhao on 2025/11/6.
-//
 
 import UIKit
 
