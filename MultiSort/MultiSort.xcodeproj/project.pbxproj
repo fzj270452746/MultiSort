@@ -1,0 +1,630 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		281F79492EC321CF006D5D37 /* Buxiauyg.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 281F79482EC321CF006D5D37 /* Buxiauyg.xcframework */; };
+		89CE177ADE731145BE77E5D6 /* Pods_MultiSort.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD053BCC330C619B52DA27A0 /* Pods_MultiSort.framework */; };
+		FEEC176F2EBA574100FD105A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEEC17632EBA574100FD105A /* AppDelegate.swift */; };
+		FEEC17702EBA574100FD105A /* MultiSort.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FEEC176A2EBA574100FD105A /* MultiSort.xcdatamodeld */; };
+		FEEC17712EBA574100FD105A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEEC176B2EBA574100FD105A /* SceneDelegate.swift */; };
+		FEEC17732EBA574100FD105A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FEEC17642EBA574100FD105A /* Assets.xcassets */; };
+		FEEC17752EBA574100FD105A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FEEC17672EBA574100FD105A /* LaunchScreen.storyboard */; };
+		FEEC17762EBA574100FD105A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FEEC17692EBA574100FD105A /* Main.storyboard */; };
+		FEEC17782EBA57C800FD105A /* MultiSortImages.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEEC17772EBA57C800FD105A /* MultiSortImages.swift */; };
+		FEEC17792EBA580000FD105A /* VibrantConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEEC17792EBA580001FD105A /* VibrantConstants.swift */; };
+		FEEC177A2EBA580000FD105A /* ScoreArchive.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEEC177A2EBA580001FD105A /* ScoreArchive.swift */; };
+		FEEC177B2EBA580000FD105A /* UIView+Radiance.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEEC177B2EBA580001FD105A /* UIView+Radiance.swift */; };
+		FEEC177C2EBA580000FD105A /* WelcomeVoyage.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEEC177C2EBA580001FD105A /* WelcomeVoyage.swift */; };
+		FEEC177D2EBA580000FD105A /* WelcomeVoyage+Hierarchy.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEEC177D2EBA580001FD105A /* WelcomeVoyage+Hierarchy.swift */; };
+		FEEC177E2EBA580000FD105A /* WelcomeVoyage+Appearance.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEEC177E2EBA580001FD105A /* WelcomeVoyage+Appearance.swift */; };
+		FEEC177F2EBA580000FD105A /* WelcomeVoyage+Actions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEEC177F2EBA580001FD105A /* WelcomeVoyage+Actions.swift */; };
+		FEEC17802EBA580000FD105A /* TileVessel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEEC17802EBA580001FD105A /* TileVessel.swift */; };
+		FEEC17812EBA580000FD105A /* GameVoyage.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEEC17812EBA580001FD105A /* GameVoyage.swift */; };
+		FEEC17822EBA580000FD105A /* GameVoyage+Hierarchy.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEEC17822EBA580001FD105A /* GameVoyage+Hierarchy.swift */; };
+		FEEC17832EBA580000FD105A /* GameVoyage+Appearance.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEEC17832EBA580001FD105A /* GameVoyage+Appearance.swift */; };
+		FEEC17842EBA580000FD105A /* GameVoyage+TileManagement.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEEC17842EBA580001FD105A /* GameVoyage+TileManagement.swift */; };
+		FEEC17852EBA580000FD105A /* GameVoyage+Gestures.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEEC17852EBA580001FD105A /* GameVoyage+Gestures.swift */; };
+		FEEC17862EBA580000FD105A /* GameVoyage+Actions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEEC17862EBA580001FD105A /* GameVoyage+Actions.swift */; };
+		FEEC17872EBA580000FD105A /* GameVoyage+Timer.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEEC17872EBA580001FD105A /* GameVoyage+Timer.swift */; };
+		FEEC17882EBA580000FD105A /* RecordsVoyage.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEEC17882EBA580001FD105A /* RecordsVoyage.swift */; };
+		FEEC17892EBA580000FD105A /* RecordsVoyage+Setup.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEEC17892EBA580001FD105A /* RecordsVoyage+Setup.swift */; };
+		FEEC178A2EBA580000FD105A /* RecordsVoyage+Actions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEEC178A2EBA580001FD105A /* RecordsVoyage+Actions.swift */; };
+		FEEC178B2EBA580000FD105A /* RecordsVoyage+TableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEEC178B2EBA580001FD105A /* RecordsVoyage+TableView.swift */; };
+		FEEC178C2EBA580000FD105A /* InstructionsVoyage.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEEC178C2EBA580001FD105A /* InstructionsVoyage.swift */; };
+		FEEC178D2EBA580000FD105A /* InstructionsVoyage+Setup.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEEC178D2EBA580001FD105A /* InstructionsVoyage+Setup.swift */; };
+		FEEC178E2EBA590000FD105A /* GameVoyage+Guidance.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEEC178E2EBA590001FD105A /* GameVoyage+Guidance.swift */; };
+		FEEC179F2EBA60B000FD105A /* GameVariant.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEEC179F2EBA60B001FD105A /* GameVariant.swift */; };
+		FEEC17A02EBA60B000FD105A /* GameVoyage+Variant.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEEC17A02EBA60B001FD105A /* GameVoyage+Variant.swift */; };
+		FEEC17B12EBA6A0000FD105A /* ModeSelectionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEEC17B12EBA6A0001FD105A /* ModeSelectionController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		11804A444516E86B370A6C2E /* Pods-MultiSort.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MultiSort.debug.xcconfig"; path = "Target Support Files/Pods-MultiSort/Pods-MultiSort.debug.xcconfig"; sourceTree = "<group>"; };
+		281F79482EC321CF006D5D37 /* Buxiauyg.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = Buxiauyg.xcframework; sourceTree = "<group>"; };
+		69DA60447FC2D951C00D7D8D /* Pods-MultiSort.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MultiSort.release.xcconfig"; path = "Target Support Files/Pods-MultiSort/Pods-MultiSort.release.xcconfig"; sourceTree = "<group>"; };
+		AD053BCC330C619B52DA27A0 /* Pods_MultiSort.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MultiSort.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FEEC17482EBA573100FD105A /* MultiSort.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MultiSort.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FEEC17632EBA574100FD105A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FEEC17642EBA574100FD105A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FEEC17652EBA574100FD105A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FEEC17662EBA574100FD105A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FEEC17682EBA574100FD105A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FEEC176B2EBA574100FD105A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		FEEC176E2EBA574100FD105A /* MultiSort.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MultiSort.xcdatamodel; sourceTree = "<group>"; };
+		FEEC17772EBA57C800FD105A /* MultiSortImages.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiSortImages.swift; sourceTree = "<group>"; };
+		FEEC17792EBA580001FD105A /* VibrantConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VibrantConstants.swift; sourceTree = "<group>"; };
+		FEEC177A2EBA580001FD105A /* ScoreArchive.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreArchive.swift; sourceTree = "<group>"; };
+		FEEC177B2EBA580001FD105A /* UIView+Radiance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Radiance.swift"; sourceTree = "<group>"; };
+		FEEC177C2EBA580001FD105A /* WelcomeVoyage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeVoyage.swift; sourceTree = "<group>"; };
+		FEEC177D2EBA580001FD105A /* WelcomeVoyage+Hierarchy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "WelcomeVoyage+Hierarchy.swift"; sourceTree = "<group>"; };
+		FEEC177E2EBA580001FD105A /* WelcomeVoyage+Appearance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "WelcomeVoyage+Appearance.swift"; sourceTree = "<group>"; };
+		FEEC177F2EBA580001FD105A /* WelcomeVoyage+Actions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "WelcomeVoyage+Actions.swift"; sourceTree = "<group>"; };
+		FEEC17802EBA580001FD105A /* TileVessel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TileVessel.swift; sourceTree = "<group>"; };
+		FEEC17812EBA580001FD105A /* GameVoyage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameVoyage.swift; sourceTree = "<group>"; };
+		FEEC17822EBA580001FD105A /* GameVoyage+Hierarchy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "GameVoyage+Hierarchy.swift"; sourceTree = "<group>"; };
+		FEEC17832EBA580001FD105A /* GameVoyage+Appearance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "GameVoyage+Appearance.swift"; sourceTree = "<group>"; };
+		FEEC17842EBA580001FD105A /* GameVoyage+TileManagement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "GameVoyage+TileManagement.swift"; sourceTree = "<group>"; };
+		FEEC17852EBA580001FD105A /* GameVoyage+Gestures.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "GameVoyage+Gestures.swift"; sourceTree = "<group>"; };
+		FEEC17862EBA580001FD105A /* GameVoyage+Actions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "GameVoyage+Actions.swift"; sourceTree = "<group>"; };
+		FEEC17872EBA580001FD105A /* GameVoyage+Timer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "GameVoyage+Timer.swift"; sourceTree = "<group>"; };
+		FEEC17882EBA580001FD105A /* RecordsVoyage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordsVoyage.swift; sourceTree = "<group>"; };
+		FEEC17892EBA580001FD105A /* RecordsVoyage+Setup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "RecordsVoyage+Setup.swift"; sourceTree = "<group>"; };
+		FEEC178A2EBA580001FD105A /* RecordsVoyage+Actions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "RecordsVoyage+Actions.swift"; sourceTree = "<group>"; };
+		FEEC178B2EBA580001FD105A /* RecordsVoyage+TableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "RecordsVoyage+TableView.swift"; sourceTree = "<group>"; };
+		FEEC178C2EBA580001FD105A /* InstructionsVoyage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstructionsVoyage.swift; sourceTree = "<group>"; };
+		FEEC178D2EBA580001FD105A /* InstructionsVoyage+Setup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "InstructionsVoyage+Setup.swift"; sourceTree = "<group>"; };
+		FEEC178E2EBA590001FD105A /* GameVoyage+Guidance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "GameVoyage+Guidance.swift"; sourceTree = "<group>"; };
+		FEEC179F2EBA60B001FD105A /* GameVariant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameVariant.swift; sourceTree = "<group>"; };
+		FEEC17A02EBA60B001FD105A /* GameVoyage+Variant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "GameVoyage+Variant.swift"; sourceTree = "<group>"; };
+		FEEC17B12EBA6A0001FD105A /* ModeSelectionController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModeSelectionController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FEEC17452EBA573100FD105A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89CE177ADE731145BE77E5D6 /* Pods_MultiSort.framework in Frameworks */,
+				281F79492EC321CF006D5D37 /* Buxiauyg.xcframework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		762F5EBD513361B2029D4E3E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AD053BCC330C619B52DA27A0 /* Pods_MultiSort.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F1784D5244809502AEAA74CA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				11804A444516E86B370A6C2E /* Pods-MultiSort.debug.xcconfig */,
+				69DA60447FC2D951C00D7D8D /* Pods-MultiSort.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		FEEC173F2EBA573100FD105A = {
+			isa = PBXGroup;
+			children = (
+				FEEC176D2EBA574100FD105A /* MultiSort */,
+				FEEC17492EBA573100FD105A /* Products */,
+				F1784D5244809502AEAA74CA /* Pods */,
+				762F5EBD513361B2029D4E3E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		FEEC17492EBA573100FD105A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FEEC17482EBA573100FD105A /* MultiSort.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FEEC176D2EBA574100FD105A /* MultiSort */ = {
+			isa = PBXGroup;
+			children = (
+				FEEC17632EBA574100FD105A /* AppDelegate.swift */,
+				FEEC17642EBA574100FD105A /* Assets.xcassets */,
+				FEEC17652EBA574100FD105A /* Info.plist */,
+				FEEC17672EBA574100FD105A /* LaunchScreen.storyboard */,
+				281F79482EC321CF006D5D37 /* Buxiauyg.xcframework */,
+				FEEC17692EBA574100FD105A /* Main.storyboard */,
+				FEEC176A2EBA574100FD105A /* MultiSort.xcdatamodeld */,
+				FEEC176B2EBA574100FD105A /* SceneDelegate.swift */,
+				FEEC17D52EBCDC7100FD105A /* MVGSU */,
+				FEEC17D62EBCDC7D00FD105A /* Welcome */,
+				FEEC17D72EBCDC8A00FD105A /* Game */,
+				FEEC17D82EBCDC9000FD105A /* Model */,
+				FEEC17D92EBCDC9800FD105A /* Records */,
+				FEEC17DA2EBCDCA000FD105A /* Instructions */,
+			);
+			path = MultiSort;
+			sourceTree = "<group>";
+		};
+		FEEC17D52EBCDC7100FD105A /* MVGSU */ = {
+			isa = PBXGroup;
+			children = (
+				FEEC17772EBA57C800FD105A /* MultiSortImages.swift */,
+				FEEC17792EBA580001FD105A /* VibrantConstants.swift */,
+				FEEC179F2EBA60B001FD105A /* GameVariant.swift */,
+				FEEC177A2EBA580001FD105A /* ScoreArchive.swift */,
+				FEEC177B2EBA580001FD105A /* UIView+Radiance.swift */,
+				FEEC17802EBA580001FD105A /* TileVessel.swift */,
+			);
+			path = MVGSU;
+			sourceTree = "<group>";
+		};
+		FEEC17D62EBCDC7D00FD105A /* Welcome */ = {
+			isa = PBXGroup;
+			children = (
+				FEEC177C2EBA580001FD105A /* WelcomeVoyage.swift */,
+				FEEC177D2EBA580001FD105A /* WelcomeVoyage+Hierarchy.swift */,
+				FEEC177E2EBA580001FD105A /* WelcomeVoyage+Appearance.swift */,
+				FEEC177F2EBA580001FD105A /* WelcomeVoyage+Actions.swift */,
+			);
+			path = Welcome;
+			sourceTree = "<group>";
+		};
+		FEEC17D72EBCDC8A00FD105A /* Game */ = {
+			isa = PBXGroup;
+			children = (
+				FEEC17812EBA580001FD105A /* GameVoyage.swift */,
+				FEEC17822EBA580001FD105A /* GameVoyage+Hierarchy.swift */,
+				FEEC17832EBA580001FD105A /* GameVoyage+Appearance.swift */,
+				FEEC17842EBA580001FD105A /* GameVoyage+TileManagement.swift */,
+				FEEC17852EBA580001FD105A /* GameVoyage+Gestures.swift */,
+				FEEC17862EBA580001FD105A /* GameVoyage+Actions.swift */,
+				FEEC17872EBA580001FD105A /* GameVoyage+Timer.swift */,
+				FEEC17A02EBA60B001FD105A /* GameVoyage+Variant.swift */,
+				FEEC178E2EBA590001FD105A /* GameVoyage+Guidance.swift */,
+			);
+			path = Game;
+			sourceTree = "<group>";
+		};
+		FEEC17D82EBCDC9000FD105A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				FEEC17B12EBA6A0001FD105A /* ModeSelectionController.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		FEEC17D92EBCDC9800FD105A /* Records */ = {
+			isa = PBXGroup;
+			children = (
+				FEEC17882EBA580001FD105A /* RecordsVoyage.swift */,
+				FEEC17892EBA580001FD105A /* RecordsVoyage+Setup.swift */,
+				FEEC178A2EBA580001FD105A /* RecordsVoyage+Actions.swift */,
+				FEEC178B2EBA580001FD105A /* RecordsVoyage+TableView.swift */,
+			);
+			path = Records;
+			sourceTree = "<group>";
+		};
+		FEEC17DA2EBCDCA000FD105A /* Instructions */ = {
+			isa = PBXGroup;
+			children = (
+				FEEC178C2EBA580001FD105A /* InstructionsVoyage.swift */,
+				FEEC178D2EBA580001FD105A /* InstructionsVoyage+Setup.swift */,
+			);
+			path = Instructions;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FEEC17472EBA573100FD105A /* MultiSort */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FEEC175E2EBA573300FD105A /* Build configuration list for PBXNativeTarget "MultiSort" */;
+			buildPhases = (
+				DA015F5EA4F9DB455C2BF684 /* [CP] Check Pods Manifest.lock */,
+				FEEC17442EBA573100FD105A /* Sources */,
+				FEEC17452EBA573100FD105A /* Frameworks */,
+				FEEC17462EBA573100FD105A /* Resources */,
+				9356A1639A6E0347C66543B6 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MultiSort;
+			productName = MultiSort;
+			productReference = FEEC17482EBA573100FD105A /* MultiSort.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FEEC17402EBA573100FD105A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1630;
+				LastUpgradeCheck = 1630;
+				TargetAttributes = {
+					FEEC17472EBA573100FD105A = {
+						CreatedOnToolsVersion = 16.3;
+					};
+				};
+			};
+			buildConfigurationList = FEEC17432EBA573100FD105A /* Build configuration list for PBXProject "MultiSort" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FEEC173F2EBA573100FD105A;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = FEEC17492EBA573100FD105A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FEEC17472EBA573100FD105A /* MultiSort */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FEEC17462EBA573100FD105A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FEEC17732EBA574100FD105A /* Assets.xcassets in Resources */,
+				FEEC17752EBA574100FD105A /* LaunchScreen.storyboard in Resources */,
+				FEEC17762EBA574100FD105A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		9356A1639A6E0347C66543B6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MultiSort/Pods-MultiSort-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MultiSort/Pods-MultiSort-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MultiSort/Pods-MultiSort-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DA015F5EA4F9DB455C2BF684 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MultiSort-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FEEC17442EBA573100FD105A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FEEC17B12EBA6A0000FD105A /* ModeSelectionController.swift in Sources */,
+				FEEC179F2EBA60B000FD105A /* GameVariant.swift in Sources */,
+				FEEC17A02EBA60B000FD105A /* GameVoyage+Variant.swift in Sources */,
+				FEEC176F2EBA574100FD105A /* AppDelegate.swift in Sources */,
+				FEEC17782EBA57C800FD105A /* MultiSortImages.swift in Sources */,
+				FEEC17702EBA574100FD105A /* MultiSort.xcdatamodeld in Sources */,
+				FEEC17712EBA574100FD105A /* SceneDelegate.swift in Sources */,
+				FEEC17792EBA580000FD105A /* VibrantConstants.swift in Sources */,
+				FEEC177A2EBA580000FD105A /* ScoreArchive.swift in Sources */,
+				FEEC177B2EBA580000FD105A /* UIView+Radiance.swift in Sources */,
+				FEEC177C2EBA580000FD105A /* WelcomeVoyage.swift in Sources */,
+				FEEC177D2EBA580000FD105A /* WelcomeVoyage+Hierarchy.swift in Sources */,
+				FEEC177E2EBA580000FD105A /* WelcomeVoyage+Appearance.swift in Sources */,
+				FEEC177F2EBA580000FD105A /* WelcomeVoyage+Actions.swift in Sources */,
+				FEEC17802EBA580000FD105A /* TileVessel.swift in Sources */,
+				FEEC17812EBA580000FD105A /* GameVoyage.swift in Sources */,
+				FEEC17822EBA580000FD105A /* GameVoyage+Hierarchy.swift in Sources */,
+				FEEC17832EBA580000FD105A /* GameVoyage+Appearance.swift in Sources */,
+				FEEC17842EBA580000FD105A /* GameVoyage+TileManagement.swift in Sources */,
+				FEEC17852EBA580000FD105A /* GameVoyage+Gestures.swift in Sources */,
+				FEEC17862EBA580000FD105A /* GameVoyage+Actions.swift in Sources */,
+				FEEC17872EBA580000FD105A /* GameVoyage+Timer.swift in Sources */,
+				FEEC178E2EBA590000FD105A /* GameVoyage+Guidance.swift in Sources */,
+				FEEC17882EBA580000FD105A /* RecordsVoyage.swift in Sources */,
+				FEEC17892EBA580000FD105A /* RecordsVoyage+Setup.swift in Sources */,
+				FEEC178A2EBA580000FD105A /* RecordsVoyage+Actions.swift in Sources */,
+				FEEC178B2EBA580000FD105A /* RecordsVoyage+TableView.swift in Sources */,
+				FEEC178C2EBA580000FD105A /* InstructionsVoyage.swift in Sources */,
+				FEEC178D2EBA580000FD105A /* InstructionsVoyage+Setup.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FEEC17672EBA574100FD105A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FEEC17662EBA574100FD105A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		FEEC17692EBA574100FD105A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FEEC17682EBA574100FD105A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FEEC175F2EBA573300FD105A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 11804A444516E86B370A6C2E /* Pods-MultiSort.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEPLOYMENT_POSTPROCESSING = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MultiSort/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Mahjong MultiSort";
+				INFOPLIST_KEY_NSUserTrackingUsageDescription = "We will use your data to enhance your user experience and provide personalized advertising services";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.MultiSort.ms;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		FEEC17602EBA573300FD105A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 69DA60447FC2D951C00D7D8D /* Pods-MultiSort.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEPLOYMENT_POSTPROCESSING = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MultiSort/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Mahjong MultiSort";
+				INFOPLIST_KEY_NSUserTrackingUsageDescription = "We will use your data to enhance your user experience and provide personalized advertising services";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.MultiSort.ms;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		FEEC17612EBA573300FD105A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FEEC17622EBA573300FD105A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FEEC17432EBA573100FD105A /* Build configuration list for PBXProject "MultiSort" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FEEC17612EBA573300FD105A /* Debug */,
+				FEEC17622EBA573300FD105A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FEEC175E2EBA573300FD105A /* Build configuration list for PBXNativeTarget "MultiSort" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FEEC175F2EBA573300FD105A /* Debug */,
+				FEEC17602EBA573300FD105A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		FEEC176A2EBA574100FD105A /* MultiSort.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				FEEC176E2EBA574100FD105A /* MultiSort.xcdatamodel */,
+			);
+			currentVersion = FEEC176E2EBA574100FD105A /* MultiSort.xcdatamodel */;
+			path = MultiSort.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = FEEC17402EBA573100FD105A /* Project object */;
+}
