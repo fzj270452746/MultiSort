@@ -7,81 +7,87 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		281F79492EC321CF006D5D37 /* Buxiauyg.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 281F79482EC321CF006D5D37 /* Buxiauyg.xcframework */; };
-		89CE177ADE731145BE77E5D6 /* Pods_MultiSort.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD053BCC330C619B52DA27A0 /* Pods_MultiSort.framework */; };
-		FEEC176F2EBA574100FD105A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEEC17632EBA574100FD105A /* AppDelegate.swift */; };
+		281F79822EC382AB006D5D37 /* Buxiauyg.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 281F79812EC382AB006D5D37 /* Buxiauyg.xcframework */; };
+		67E4D2510D004F38B4336E3F /* Pods_MultiSort.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BAB58B65C39696986BC66AF /* Pods_MultiSort.framework */; };
+		FE3E734D2EC3765400B52821 /* GameVoyage+Actions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE3E73332EC3765400B52821 /* GameVoyage+Actions.swift */; };
+		FE3E734E2EC3765400B52821 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE3E73432EC3765400B52821 /* SceneDelegate.swift */; };
+		FE3E734F2EC3765400B52821 /* ScoreArchive.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE3E73442EC3765400B52821 /* ScoreArchive.swift */; };
+		FE3E73502EC3765400B52821 /* RecordsVoyage+Actions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE3E73402EC3765400B52821 /* RecordsVoyage+Actions.swift */; };
+		FE3E73512EC3765400B52821 /* InstructionsVoyage.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE3E733B2EC3765400B52821 /* InstructionsVoyage.swift */; };
+		FE3E73522EC3765400B52821 /* WelcomeVoyage+Appearance.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE3E734B2EC3765400B52821 /* WelcomeVoyage+Appearance.swift */; };
+		FE3E73532EC3765400B52821 /* TileVessel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE3E73462EC3765400B52821 /* TileVessel.swift */; };
+		FE3E73542EC3765400B52821 /* GameVoyage+Hierarchy.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE3E73372EC3765400B52821 /* GameVoyage+Hierarchy.swift */; };
+		FE3E73552EC3765400B52821 /* ModeSelectionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE3E733D2EC3765400B52821 /* ModeSelectionController.swift */; };
+		FE3E73562EC3765400B52821 /* GameVoyage+Appearance.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE3E73342EC3765400B52821 /* GameVoyage+Appearance.swift */; };
+		FE3E73572EC3765400B52821 /* RecordsVoyage+TableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE3E73422EC3765400B52821 /* RecordsVoyage+TableView.swift */; };
+		FE3E73582EC3765400B52821 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE3E73312EC3765400B52821 /* BaseViewController.swift */; };
+		FE3E73592EC3765400B52821 /* RecordsVoyage.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE3E733F2EC3765400B52821 /* RecordsVoyage.swift */; };
+		FE3E735A2EC3765400B52821 /* GameVoyage+Guidance.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE3E73362EC3765400B52821 /* GameVoyage+Guidance.swift */; };
+		FE3E735B2EC3765400B52821 /* RecordsVoyage+Setup.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE3E73412EC3765400B52821 /* RecordsVoyage+Setup.swift */; };
+		FE3E735C2EC3765400B52821 /* TileInteractionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE3E73452EC3765400B52821 /* TileInteractionManager.swift */; };
+		FE3E735D2EC3765400B52821 /* GameVoyage+Timer.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE3E73392EC3765400B52821 /* GameVoyage+Timer.swift */; };
+		FE3E735E2EC3765400B52821 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE3E732F2EC3765400B52821 /* AppDelegate.swift */; };
+		FE3E735F2EC3765400B52821 /* GameVoyage.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE3E73322EC3765400B52821 /* GameVoyage.swift */; };
+		FE3E73602EC3765400B52821 /* MultiSortImages.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE3E733E2EC3765400B52821 /* MultiSortImages.swift */; };
+		FE3E73612EC3765400B52821 /* GameVoyage+Variant.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE3E733A2EC3765400B52821 /* GameVoyage+Variant.swift */; };
+		FE3E73622EC3765400B52821 /* UIView+Radiance.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE3E73472EC3765400B52821 /* UIView+Radiance.swift */; };
+		FE3E73632EC3765400B52821 /* WelcomeVoyage+Actions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE3E734A2EC3765400B52821 /* WelcomeVoyage+Actions.swift */; };
+		FE3E73642EC3765400B52821 /* WelcomeVoyage+Hierarchy.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE3E734C2EC3765400B52821 /* WelcomeVoyage+Hierarchy.swift */; };
+		FE3E73652EC3765400B52821 /* GameVoyage+TileManagement.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE3E73382EC3765400B52821 /* GameVoyage+TileManagement.swift */; };
+		FE3E73662EC3765400B52821 /* BaseModalController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE3E73302EC3765400B52821 /* BaseModalController.swift */; };
+		FE3E73672EC3765400B52821 /* VibrantConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE3E73482EC3765400B52821 /* VibrantConstants.swift */; };
+		FE3E73682EC3765400B52821 /* InstructionsVoyage+Setup.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE3E733C2EC3765400B52821 /* InstructionsVoyage+Setup.swift */; };
+		FE3E73692EC3765400B52821 /* GameVoyage+Gestures.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE3E73352EC3765400B52821 /* GameVoyage+Gestures.swift */; };
+		FE3E736A2EC3765400B52821 /* WelcomeVoyage.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE3E73492EC3765400B52821 /* WelcomeVoyage.swift */; };
 		FEEC17702EBA574100FD105A /* MultiSort.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FEEC176A2EBA574100FD105A /* MultiSort.xcdatamodeld */; };
-		FEEC17712EBA574100FD105A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEEC176B2EBA574100FD105A /* SceneDelegate.swift */; };
 		FEEC17732EBA574100FD105A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FEEC17642EBA574100FD105A /* Assets.xcassets */; };
 		FEEC17752EBA574100FD105A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FEEC17672EBA574100FD105A /* LaunchScreen.storyboard */; };
 		FEEC17762EBA574100FD105A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FEEC17692EBA574100FD105A /* Main.storyboard */; };
-		FEEC17782EBA57C800FD105A /* MultiSortImages.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEEC17772EBA57C800FD105A /* MultiSortImages.swift */; };
-		FEEC17792EBA580000FD105A /* VibrantConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEEC17792EBA580001FD105A /* VibrantConstants.swift */; };
-		FEEC177A2EBA580000FD105A /* ScoreArchive.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEEC177A2EBA580001FD105A /* ScoreArchive.swift */; };
-		FEEC177B2EBA580000FD105A /* UIView+Radiance.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEEC177B2EBA580001FD105A /* UIView+Radiance.swift */; };
-		FEEC177C2EBA580000FD105A /* WelcomeVoyage.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEEC177C2EBA580001FD105A /* WelcomeVoyage.swift */; };
-		FEEC177D2EBA580000FD105A /* WelcomeVoyage+Hierarchy.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEEC177D2EBA580001FD105A /* WelcomeVoyage+Hierarchy.swift */; };
-		FEEC177E2EBA580000FD105A /* WelcomeVoyage+Appearance.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEEC177E2EBA580001FD105A /* WelcomeVoyage+Appearance.swift */; };
-		FEEC177F2EBA580000FD105A /* WelcomeVoyage+Actions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEEC177F2EBA580001FD105A /* WelcomeVoyage+Actions.swift */; };
-		FEEC17802EBA580000FD105A /* TileVessel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEEC17802EBA580001FD105A /* TileVessel.swift */; };
-		FEEC17812EBA580000FD105A /* PodrozGry.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEEC17812EBA580001FD105A /* PodrozGry.swift */; };
-		FEEC17822EBA580000FD105A /* PodrozGry+Hierarchia.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEEC17822EBA580001FD105A /* PodrozGry+Hierarchia.swift */; };
-		FEEC17832EBA580000FD105A /* PodrozGry+Wyglad.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEEC17832EBA580001FD105A /* PodrozGry+Wyglad.swift */; };
-		FEEC17842EBA580000FD105A /* PodrozGry+ZarzadzanieKafelkami.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEEC17842EBA580001FD105A /* PodrozGry+ZarzadzanieKafelkami.swift */; };
-		FEEC17852EBA580000FD105A /* PodrozGry+Gesty.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEEC17852EBA580001FD105A /* PodrozGry+Gesty.swift */; };
-		FEEC17862EBA580000FD105A /* PodrozGry+Akcje.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEEC17862EBA580001FD105A /* PodrozGry+Akcje.swift */; };
-		FEEC17872EBA580000FD105A /* PodrozGry+Czasomierz.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEEC17872EBA580001FD105A /* PodrozGry+Czasomierz.swift */; };
-		FEEC17882EBA580000FD105A /* PodrozRekordow.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEEC17882EBA580001FD105A /* PodrozRekordow.swift */; };
-		FEEC17892EBA580000FD105A /* PodrozRekordow+Konfiguracja.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEEC17892EBA580001FD105A /* PodrozRekordow+Konfiguracja.swift */; };
-		FEEC178A2EBA580000FD105A /* PodrozRekordow+Akcje.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEEC178A2EBA580001FD105A /* PodrozRekordow+Akcje.swift */; };
-		FEEC178B2EBA580000FD105A /* PodrozRekordow+Tabela.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEEC178B2EBA580001FD105A /* PodrozRekordow+Tabela.swift */; };
-		FEEC178C2EBA580000FD105A /* PodrozInstrukcji.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEEC178C2EBA580001FD105A /* PodrozInstrukcji.swift */; };
-		FEEC178D2EBA580000FD105A /* PodrozInstrukcji+Konfiguracja.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEEC178D2EBA580001FD105A /* PodrozInstrukcji+Konfiguracja.swift */; };
-		FEEC178E2EBA590000FD105A /* PodrozGry+Instrukcje.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEEC178E2EBA590001FD105A /* PodrozGry+Instrukcje.swift */; };
 		FEEC179F2EBA60B000FD105A /* GameVariant.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEEC179F2EBA60B001FD105A /* GameVariant.swift */; };
-		FEEC17A02EBA60B000FD105A /* PodrozGry+Wariant.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEEC17A02EBA60B001FD105A /* PodrozGry+Wariant.swift */; };
-		FEEC17B12EBA6A0000FD105A /* KontrolerWyboruTrybu.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEEC17B12EBA6A0001FD105A /* KontrolerWyboruTrybu.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		11804A444516E86B370A6C2E /* Pods-MultiSort.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MultiSort.debug.xcconfig"; path = "Target Support Files/Pods-MultiSort/Pods-MultiSort.debug.xcconfig"; sourceTree = "<group>"; };
-		281F79482EC321CF006D5D37 /* Buxiauyg.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = Buxiauyg.xcframework; sourceTree = "<group>"; };
-		69DA60447FC2D951C00D7D8D /* Pods-MultiSort.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MultiSort.release.xcconfig"; path = "Target Support Files/Pods-MultiSort/Pods-MultiSort.release.xcconfig"; sourceTree = "<group>"; };
-		AD053BCC330C619B52DA27A0 /* Pods_MultiSort.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MultiSort.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		281F79812EC382AB006D5D37 /* Buxiauyg.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = Buxiauyg.xcframework; sourceTree = "<group>"; };
+		3BAB58B65C39696986BC66AF /* Pods_MultiSort.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MultiSort.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		691BA9B98E001AA95740A8CC /* Pods-MultiSort.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MultiSort.debug.xcconfig"; path = "Target Support Files/Pods-MultiSort/Pods-MultiSort.debug.xcconfig"; sourceTree = "<group>"; };
+		BE56F330F74B6F0F976E92D1 /* Pods-MultiSort.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MultiSort.release.xcconfig"; path = "Target Support Files/Pods-MultiSort/Pods-MultiSort.release.xcconfig"; sourceTree = "<group>"; };
+		FE3E732F2EC3765400B52821 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FE3E73302EC3765400B52821 /* BaseModalController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseModalController.swift; sourceTree = "<group>"; };
+		FE3E73312EC3765400B52821 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		FE3E73322EC3765400B52821 /* GameVoyage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameVoyage.swift; sourceTree = "<group>"; };
+		FE3E73332EC3765400B52821 /* GameVoyage+Actions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "GameVoyage+Actions.swift"; sourceTree = "<group>"; };
+		FE3E73342EC3765400B52821 /* GameVoyage+Appearance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "GameVoyage+Appearance.swift"; sourceTree = "<group>"; };
+		FE3E73352EC3765400B52821 /* GameVoyage+Gestures.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "GameVoyage+Gestures.swift"; sourceTree = "<group>"; };
+		FE3E73362EC3765400B52821 /* GameVoyage+Guidance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "GameVoyage+Guidance.swift"; sourceTree = "<group>"; };
+		FE3E73372EC3765400B52821 /* GameVoyage+Hierarchy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "GameVoyage+Hierarchy.swift"; sourceTree = "<group>"; };
+		FE3E73382EC3765400B52821 /* GameVoyage+TileManagement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "GameVoyage+TileManagement.swift"; sourceTree = "<group>"; };
+		FE3E73392EC3765400B52821 /* GameVoyage+Timer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "GameVoyage+Timer.swift"; sourceTree = "<group>"; };
+		FE3E733A2EC3765400B52821 /* GameVoyage+Variant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "GameVoyage+Variant.swift"; sourceTree = "<group>"; };
+		FE3E733B2EC3765400B52821 /* InstructionsVoyage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstructionsVoyage.swift; sourceTree = "<group>"; };
+		FE3E733C2EC3765400B52821 /* InstructionsVoyage+Setup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "InstructionsVoyage+Setup.swift"; sourceTree = "<group>"; };
+		FE3E733D2EC3765400B52821 /* ModeSelectionController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModeSelectionController.swift; sourceTree = "<group>"; };
+		FE3E733E2EC3765400B52821 /* MultiSortImages.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiSortImages.swift; sourceTree = "<group>"; };
+		FE3E733F2EC3765400B52821 /* RecordsVoyage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordsVoyage.swift; sourceTree = "<group>"; };
+		FE3E73402EC3765400B52821 /* RecordsVoyage+Actions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "RecordsVoyage+Actions.swift"; sourceTree = "<group>"; };
+		FE3E73412EC3765400B52821 /* RecordsVoyage+Setup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "RecordsVoyage+Setup.swift"; sourceTree = "<group>"; };
+		FE3E73422EC3765400B52821 /* RecordsVoyage+TableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "RecordsVoyage+TableView.swift"; sourceTree = "<group>"; };
+		FE3E73432EC3765400B52821 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		FE3E73442EC3765400B52821 /* ScoreArchive.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreArchive.swift; sourceTree = "<group>"; };
+		FE3E73452EC3765400B52821 /* TileInteractionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TileInteractionManager.swift; sourceTree = "<group>"; };
+		FE3E73462EC3765400B52821 /* TileVessel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TileVessel.swift; sourceTree = "<group>"; };
+		FE3E73472EC3765400B52821 /* UIView+Radiance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Radiance.swift"; sourceTree = "<group>"; };
+		FE3E73482EC3765400B52821 /* VibrantConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VibrantConstants.swift; sourceTree = "<group>"; };
+		FE3E73492EC3765400B52821 /* WelcomeVoyage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeVoyage.swift; sourceTree = "<group>"; };
+		FE3E734A2EC3765400B52821 /* WelcomeVoyage+Actions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "WelcomeVoyage+Actions.swift"; sourceTree = "<group>"; };
+		FE3E734B2EC3765400B52821 /* WelcomeVoyage+Appearance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "WelcomeVoyage+Appearance.swift"; sourceTree = "<group>"; };
+		FE3E734C2EC3765400B52821 /* WelcomeVoyage+Hierarchy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "WelcomeVoyage+Hierarchy.swift"; sourceTree = "<group>"; };
 		FEEC17482EBA573100FD105A /* MultiSort.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MultiSort.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		FEEC17632EBA574100FD105A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FEEC17642EBA574100FD105A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FEEC17652EBA574100FD105A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FEEC17662EBA574100FD105A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FEEC17682EBA574100FD105A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		FEEC176B2EBA574100FD105A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		FEEC176E2EBA574100FD105A /* MultiSort.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MultiSort.xcdatamodel; sourceTree = "<group>"; };
-		FEEC17772EBA57C800FD105A /* MultiSortImages.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiSortImages.swift; sourceTree = "<group>"; };
-		FEEC17792EBA580001FD105A /* VibrantConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VibrantConstants.swift; sourceTree = "<group>"; };
-		FEEC177A2EBA580001FD105A /* ScoreArchive.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreArchive.swift; sourceTree = "<group>"; };
-		FEEC177B2EBA580001FD105A /* UIView+Radiance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Radiance.swift"; sourceTree = "<group>"; };
-		FEEC177C2EBA580001FD105A /* WelcomeVoyage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeVoyage.swift; sourceTree = "<group>"; };
-		FEEC177D2EBA580001FD105A /* WelcomeVoyage+Hierarchy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "WelcomeVoyage+Hierarchy.swift"; sourceTree = "<group>"; };
-		FEEC177E2EBA580001FD105A /* WelcomeVoyage+Appearance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "WelcomeVoyage+Appearance.swift"; sourceTree = "<group>"; };
-		FEEC177F2EBA580001FD105A /* WelcomeVoyage+Actions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "WelcomeVoyage+Actions.swift"; sourceTree = "<group>"; };
-		FEEC17802EBA580001FD105A /* TileVessel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TileVessel.swift; sourceTree = "<group>"; };
-		FEEC17812EBA580001FD105A /* PodrozGry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PodrozGry.swift; sourceTree = "<group>"; };
-		FEEC17822EBA580001FD105A /* PodrozGry+Hierarchia.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PodrozGry+Hierarchia.swift"; sourceTree = "<group>"; };
-		FEEC17832EBA580001FD105A /* PodrozGry+Wyglad.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PodrozGry+Wyglad.swift"; sourceTree = "<group>"; };
-		FEEC17842EBA580001FD105A /* PodrozGry+ZarzadzanieKafelkami.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PodrozGry+ZarzadzanieKafelkami.swift"; sourceTree = "<group>"; };
-		FEEC17852EBA580001FD105A /* PodrozGry+Gesty.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PodrozGry+Gesty.swift"; sourceTree = "<group>"; };
-		FEEC17862EBA580001FD105A /* PodrozGry+Akcje.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PodrozGry+Akcje.swift"; sourceTree = "<group>"; };
-		FEEC17872EBA580001FD105A /* PodrozGry+Czasomierz.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PodrozGry+Czasomierz.swift"; sourceTree = "<group>"; };
-		FEEC17882EBA580001FD105A /* PodrozRekordow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PodrozRekordow.swift; sourceTree = "<group>"; };
-		FEEC17892EBA580001FD105A /* PodrozRekordow+Konfiguracja.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PodrozRekordow+Konfiguracja.swift"; sourceTree = "<group>"; };
-		FEEC178A2EBA580001FD105A /* PodrozRekordow+Akcje.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PodrozRekordow+Akcje.swift"; sourceTree = "<group>"; };
-		FEEC178B2EBA580001FD105A /* PodrozRekordow+Tabela.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PodrozRekordow+Tabela.swift"; sourceTree = "<group>"; };
-		FEEC178C2EBA580001FD105A /* PodrozInstrukcji.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PodrozInstrukcji.swift; sourceTree = "<group>"; };
-		FEEC178D2EBA580001FD105A /* PodrozInstrukcji+Konfiguracja.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PodrozInstrukcji+Konfiguracja.swift"; sourceTree = "<group>"; };
-		FEEC178E2EBA590001FD105A /* PodrozGry+Instrukcje.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PodrozGry+Instrukcje.swift"; sourceTree = "<group>"; };
 		FEEC179F2EBA60B001FD105A /* GameVariant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameVariant.swift; sourceTree = "<group>"; };
-		FEEC17A02EBA60B001FD105A /* PodrozGry+Wariant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PodrozGry+Wariant.swift"; sourceTree = "<group>"; };
-		FEEC17B12EBA6A0001FD105A /* KontrolerWyboruTrybu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KontrolerWyboruTrybu.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,29 +95,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				89CE177ADE731145BE77E5D6 /* Pods_MultiSort.framework in Frameworks */,
-				281F79492EC321CF006D5D37 /* Buxiauyg.xcframework in Frameworks */,
+				67E4D2510D004F38B4336E3F /* Pods_MultiSort.framework in Frameworks */,
+				281F79822EC382AB006D5D37 /* Buxiauyg.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		762F5EBD513361B2029D4E3E /* Frameworks */ = {
+		5ABEB330D1CBF8B6A6AE6443 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				AD053BCC330C619B52DA27A0 /* Pods_MultiSort.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		F1784D5244809502AEAA74CA /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				11804A444516E86B370A6C2E /* Pods-MultiSort.debug.xcconfig */,
-				69DA60447FC2D951C00D7D8D /* Pods-MultiSort.release.xcconfig */,
+				691BA9B98E001AA95740A8CC /* Pods-MultiSort.debug.xcconfig */,
+				BE56F330F74B6F0F976E92D1 /* Pods-MultiSort.release.xcconfig */,
 			);
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		D1762B60E765D5421A748ED8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3BAB58B65C39696986BC66AF /* Pods_MultiSort.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		FEEC173F2EBA573100FD105A = {
@@ -119,8 +125,8 @@
 			children = (
 				FEEC176D2EBA574100FD105A /* MultiSort */,
 				FEEC17492EBA573100FD105A /* Products */,
-				F1784D5244809502AEAA74CA /* Pods */,
-				762F5EBD513361B2029D4E3E /* Frameworks */,
+				5ABEB330D1CBF8B6A6AE6443 /* Pods */,
+				D1762B60E765D5421A748ED8 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -135,90 +141,45 @@
 		FEEC176D2EBA574100FD105A /* MultiSort */ = {
 			isa = PBXGroup;
 			children = (
-				FEEC17632EBA574100FD105A /* AppDelegate.swift */,
+				FE3E732F2EC3765400B52821 /* AppDelegate.swift */,
+				FE3E73302EC3765400B52821 /* BaseModalController.swift */,
+				FE3E73312EC3765400B52821 /* BaseViewController.swift */,
+				FE3E73322EC3765400B52821 /* GameVoyage.swift */,
+				FE3E73332EC3765400B52821 /* GameVoyage+Actions.swift */,
+				FE3E73342EC3765400B52821 /* GameVoyage+Appearance.swift */,
+				FE3E73352EC3765400B52821 /* GameVoyage+Gestures.swift */,
+				FE3E73362EC3765400B52821 /* GameVoyage+Guidance.swift */,
+				FE3E73372EC3765400B52821 /* GameVoyage+Hierarchy.swift */,
+				FE3E73382EC3765400B52821 /* GameVoyage+TileManagement.swift */,
+				FE3E73392EC3765400B52821 /* GameVoyage+Timer.swift */,
+				FE3E733A2EC3765400B52821 /* GameVoyage+Variant.swift */,
+				FE3E733B2EC3765400B52821 /* InstructionsVoyage.swift */,
+				FE3E733C2EC3765400B52821 /* InstructionsVoyage+Setup.swift */,
+				FE3E733D2EC3765400B52821 /* ModeSelectionController.swift */,
+				FE3E733E2EC3765400B52821 /* MultiSortImages.swift */,
+				FE3E733F2EC3765400B52821 /* RecordsVoyage.swift */,
+				FE3E73402EC3765400B52821 /* RecordsVoyage+Actions.swift */,
+				FE3E73412EC3765400B52821 /* RecordsVoyage+Setup.swift */,
+				FE3E73422EC3765400B52821 /* RecordsVoyage+TableView.swift */,
+				FE3E73432EC3765400B52821 /* SceneDelegate.swift */,
+				FE3E73442EC3765400B52821 /* ScoreArchive.swift */,
+				FE3E73452EC3765400B52821 /* TileInteractionManager.swift */,
+				FE3E73462EC3765400B52821 /* TileVessel.swift */,
+				FE3E73472EC3765400B52821 /* UIView+Radiance.swift */,
+				281F79812EC382AB006D5D37 /* Buxiauyg.xcframework */,
+				FE3E73482EC3765400B52821 /* VibrantConstants.swift */,
+				FE3E73492EC3765400B52821 /* WelcomeVoyage.swift */,
+				FE3E734A2EC3765400B52821 /* WelcomeVoyage+Actions.swift */,
+				FE3E734B2EC3765400B52821 /* WelcomeVoyage+Appearance.swift */,
+				FE3E734C2EC3765400B52821 /* WelcomeVoyage+Hierarchy.swift */,
 				FEEC17642EBA574100FD105A /* Assets.xcassets */,
 				FEEC17652EBA574100FD105A /* Info.plist */,
 				FEEC17672EBA574100FD105A /* LaunchScreen.storyboard */,
-				281F79482EC321CF006D5D37 /* Buxiauyg.xcframework */,
 				FEEC17692EBA574100FD105A /* Main.storyboard */,
 				FEEC176A2EBA574100FD105A /* MultiSort.xcdatamodeld */,
-				FEEC176B2EBA574100FD105A /* SceneDelegate.swift */,
-				FEEC17D52EBCDC7100FD105A /* MVGSU */,
-				FEEC17D62EBCDC7D00FD105A /* Welcome */,
-				FEEC17D72EBCDC8A00FD105A /* Game */,
-				FEEC17D82EBCDC9000FD105A /* Model */,
-				FEEC17D92EBCDC9800FD105A /* Records */,
-				FEEC17DA2EBCDCA000FD105A /* Instructions */,
+				FEEC179F2EBA60B001FD105A /* GameVariant.swift */,
 			);
 			path = MultiSort;
-			sourceTree = "<group>";
-		};
-		FEEC17D52EBCDC7100FD105A /* MVGSU */ = {
-			isa = PBXGroup;
-			children = (
-				FEEC17772EBA57C800FD105A /* MultiSortImages.swift */,
-				FEEC17792EBA580001FD105A /* VibrantConstants.swift */,
-				FEEC179F2EBA60B001FD105A /* GameVariant.swift */,
-				FEEC177A2EBA580001FD105A /* ScoreArchive.swift */,
-				FEEC177B2EBA580001FD105A /* UIView+Radiance.swift */,
-				FEEC17802EBA580001FD105A /* TileVessel.swift */,
-			);
-			path = MVGSU;
-			sourceTree = "<group>";
-		};
-		FEEC17D62EBCDC7D00FD105A /* Welcome */ = {
-			isa = PBXGroup;
-			children = (
-				FEEC177C2EBA580001FD105A /* WelcomeVoyage.swift */,
-				FEEC177D2EBA580001FD105A /* WelcomeVoyage+Hierarchy.swift */,
-				FEEC177E2EBA580001FD105A /* WelcomeVoyage+Appearance.swift */,
-				FEEC177F2EBA580001FD105A /* WelcomeVoyage+Actions.swift */,
-			);
-			path = Welcome;
-			sourceTree = "<group>";
-		};
-		FEEC17D72EBCDC8A00FD105A /* Game */ = {
-			isa = PBXGroup;
-			children = (
-				FEEC17812EBA580001FD105A /* PodrozGry.swift */,
-				FEEC17822EBA580001FD105A /* PodrozGry+Hierarchia.swift */,
-				FEEC17832EBA580001FD105A /* PodrozGry+Wyglad.swift */,
-				FEEC17842EBA580001FD105A /* PodrozGry+ZarzadzanieKafelkami.swift */,
-				FEEC17852EBA580001FD105A /* PodrozGry+Gesty.swift */,
-				FEEC17862EBA580001FD105A /* PodrozGry+Akcje.swift */,
-				FEEC17872EBA580001FD105A /* PodrozGry+Czasomierz.swift */,
-				FEEC17A02EBA60B001FD105A /* PodrozGry+Wariant.swift */,
-				FEEC178E2EBA590001FD105A /* PodrozGry+Instrukcje.swift */,
-			);
-			path = Game;
-			sourceTree = "<group>";
-		};
-		FEEC17D82EBCDC9000FD105A /* Model */ = {
-			isa = PBXGroup;
-			children = (
-				FEEC17B12EBA6A0001FD105A /* KontrolerWyboruTrybu.swift */,
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
-		FEEC17D92EBCDC9800FD105A /* Records */ = {
-			isa = PBXGroup;
-			children = (
-				FEEC17882EBA580001FD105A /* PodrozRekordow.swift */,
-				FEEC17892EBA580001FD105A /* PodrozRekordow+Konfiguracja.swift */,
-				FEEC178A2EBA580001FD105A /* PodrozRekordow+Akcje.swift */,
-				FEEC178B2EBA580001FD105A /* PodrozRekordow+Tabela.swift */,
-			);
-			path = Records;
-			sourceTree = "<group>";
-		};
-		FEEC17DA2EBCDCA000FD105A /* Instructions */ = {
-			isa = PBXGroup;
-			children = (
-				FEEC178C2EBA580001FD105A /* PodrozInstrukcji.swift */,
-				FEEC178D2EBA580001FD105A /* PodrozInstrukcji+Konfiguracja.swift */,
-			);
-			path = Instructions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -228,11 +189,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FEEC175E2EBA573300FD105A /* Build configuration list for PBXNativeTarget "MultiSort" */;
 			buildPhases = (
-				DA015F5EA4F9DB455C2BF684 /* [CP] Check Pods Manifest.lock */,
+				39A4AFB26758A518E0387152 /* [CP] Check Pods Manifest.lock */,
 				FEEC17442EBA573100FD105A /* Sources */,
 				FEEC17452EBA573100FD105A /* Frameworks */,
 				FEEC17462EBA573100FD105A /* Resources */,
-				9356A1639A6E0347C66543B6 /* [CP] Embed Pods Frameworks */,
+				4C54A685DECC47E4AC95B12A /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -291,28 +252,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		9356A1639A6E0347C66543B6 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-MultiSort/Pods-MultiSort-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-MultiSort/Pods-MultiSort-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MultiSort/Pods-MultiSort-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		DA015F5EA4F9DB455C2BF684 /* [CP] Check Pods Manifest.lock */ = {
+		39A4AFB26758A518E0387152 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -334,6 +274,27 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		4C54A685DECC47E4AC95B12A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MultiSort/Pods-MultiSort-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MultiSort/Pods-MultiSort-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MultiSort/Pods-MultiSort-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -341,35 +302,38 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FEEC17B12EBA6A0000FD105A /* KontrolerWyboruTrybu.swift in Sources */,
 				FEEC179F2EBA60B000FD105A /* GameVariant.swift in Sources */,
-				FEEC17A02EBA60B000FD105A /* PodrozGry+Wariant.swift in Sources */,
-				FEEC176F2EBA574100FD105A /* AppDelegate.swift in Sources */,
-				FEEC17782EBA57C800FD105A /* MultiSortImages.swift in Sources */,
 				FEEC17702EBA574100FD105A /* MultiSort.xcdatamodeld in Sources */,
-				FEEC17712EBA574100FD105A /* SceneDelegate.swift in Sources */,
-				FEEC17792EBA580000FD105A /* VibrantConstants.swift in Sources */,
-				FEEC177A2EBA580000FD105A /* ScoreArchive.swift in Sources */,
-				FEEC177B2EBA580000FD105A /* UIView+Radiance.swift in Sources */,
-				FEEC177C2EBA580000FD105A /* WelcomeVoyage.swift in Sources */,
-				FEEC177D2EBA580000FD105A /* WelcomeVoyage+Hierarchy.swift in Sources */,
-				FEEC177E2EBA580000FD105A /* WelcomeVoyage+Appearance.swift in Sources */,
-				FEEC177F2EBA580000FD105A /* WelcomeVoyage+Actions.swift in Sources */,
-				FEEC17802EBA580000FD105A /* TileVessel.swift in Sources */,
-				FEEC17812EBA580000FD105A /* PodrozGry.swift in Sources */,
-				FEEC17822EBA580000FD105A /* PodrozGry+Hierarchia.swift in Sources */,
-				FEEC17832EBA580000FD105A /* PodrozGry+Wyglad.swift in Sources */,
-				FEEC17842EBA580000FD105A /* PodrozGry+ZarzadzanieKafelkami.swift in Sources */,
-				FEEC17852EBA580000FD105A /* PodrozGry+Gesty.swift in Sources */,
-				FEEC17862EBA580000FD105A /* PodrozGry+Akcje.swift in Sources */,
-				FEEC17872EBA580000FD105A /* PodrozGry+Czasomierz.swift in Sources */,
-				FEEC178E2EBA590000FD105A /* PodrozGry+Instrukcje.swift in Sources */,
-				FEEC17882EBA580000FD105A /* PodrozRekordow.swift in Sources */,
-				FEEC17892EBA580000FD105A /* PodrozRekordow+Konfiguracja.swift in Sources */,
-				FEEC178A2EBA580000FD105A /* PodrozRekordow+Akcje.swift in Sources */,
-				FEEC178B2EBA580000FD105A /* PodrozRekordow+Tabela.swift in Sources */,
-				FEEC178C2EBA580000FD105A /* PodrozInstrukcji.swift in Sources */,
-				FEEC178D2EBA580000FD105A /* PodrozInstrukcji+Konfiguracja.swift in Sources */,
+				FE3E734D2EC3765400B52821 /* GameVoyage+Actions.swift in Sources */,
+				FE3E734E2EC3765400B52821 /* SceneDelegate.swift in Sources */,
+				FE3E734F2EC3765400B52821 /* ScoreArchive.swift in Sources */,
+				FE3E73502EC3765400B52821 /* RecordsVoyage+Actions.swift in Sources */,
+				FE3E73512EC3765400B52821 /* InstructionsVoyage.swift in Sources */,
+				FE3E73522EC3765400B52821 /* WelcomeVoyage+Appearance.swift in Sources */,
+				FE3E73532EC3765400B52821 /* TileVessel.swift in Sources */,
+				FE3E73542EC3765400B52821 /* GameVoyage+Hierarchy.swift in Sources */,
+				FE3E73552EC3765400B52821 /* ModeSelectionController.swift in Sources */,
+				FE3E73562EC3765400B52821 /* GameVoyage+Appearance.swift in Sources */,
+				FE3E73572EC3765400B52821 /* RecordsVoyage+TableView.swift in Sources */,
+				FE3E73582EC3765400B52821 /* BaseViewController.swift in Sources */,
+				FE3E73592EC3765400B52821 /* RecordsVoyage.swift in Sources */,
+				FE3E735A2EC3765400B52821 /* GameVoyage+Guidance.swift in Sources */,
+				FE3E735B2EC3765400B52821 /* RecordsVoyage+Setup.swift in Sources */,
+				FE3E735C2EC3765400B52821 /* TileInteractionManager.swift in Sources */,
+				FE3E735D2EC3765400B52821 /* GameVoyage+Timer.swift in Sources */,
+				FE3E735E2EC3765400B52821 /* AppDelegate.swift in Sources */,
+				FE3E735F2EC3765400B52821 /* GameVoyage.swift in Sources */,
+				FE3E73602EC3765400B52821 /* MultiSortImages.swift in Sources */,
+				FE3E73612EC3765400B52821 /* GameVoyage+Variant.swift in Sources */,
+				FE3E73622EC3765400B52821 /* UIView+Radiance.swift in Sources */,
+				FE3E73632EC3765400B52821 /* WelcomeVoyage+Actions.swift in Sources */,
+				FE3E73642EC3765400B52821 /* WelcomeVoyage+Hierarchy.swift in Sources */,
+				FE3E73652EC3765400B52821 /* GameVoyage+TileManagement.swift in Sources */,
+				FE3E73662EC3765400B52821 /* BaseModalController.swift in Sources */,
+				FE3E73672EC3765400B52821 /* VibrantConstants.swift in Sources */,
+				FE3E73682EC3765400B52821 /* InstructionsVoyage+Setup.swift in Sources */,
+				FE3E73692EC3765400B52821 /* GameVoyage+Gestures.swift in Sources */,
+				FE3E736A2EC3765400B52821 /* WelcomeVoyage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -397,7 +361,7 @@
 /* Begin XCBuildConfiguration section */
 		FEEC175F2EBA573300FD105A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 11804A444516E86B370A6C2E /* Pods-MultiSort.debug.xcconfig */;
+			baseConfigurationReference = 691BA9B98E001AA95740A8CC /* Pods-MultiSort.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -420,7 +384,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.1.1;
+				MARKETING_VERSION = 1.1.2;
 				PRODUCT_BUNDLE_IDENTIFIER = com.MultiSort.ms;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
@@ -435,7 +399,7 @@
 		};
 		FEEC17602EBA573300FD105A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 69DA60447FC2D951C00D7D8D /* Pods-MultiSort.release.xcconfig */;
+			baseConfigurationReference = BE56F330F74B6F0F976E92D1 /* Pods-MultiSort.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -458,7 +422,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.1.1;
+				MARKETING_VERSION = 1.1.2;
 				PRODUCT_BUNDLE_IDENTIFIER = com.MultiSort.ms;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
