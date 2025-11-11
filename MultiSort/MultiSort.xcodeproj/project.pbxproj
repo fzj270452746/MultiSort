@@ -24,23 +24,23 @@
 		FEEC177E2EBA580000FD105A /* WelcomeVoyage+Appearance.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEEC177E2EBA580001FD105A /* WelcomeVoyage+Appearance.swift */; };
 		FEEC177F2EBA580000FD105A /* WelcomeVoyage+Actions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEEC177F2EBA580001FD105A /* WelcomeVoyage+Actions.swift */; };
 		FEEC17802EBA580000FD105A /* TileVessel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEEC17802EBA580001FD105A /* TileVessel.swift */; };
-		FEEC17812EBA580000FD105A /* GameVoyage.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEEC17812EBA580001FD105A /* GameVoyage.swift */; };
-		FEEC17822EBA580000FD105A /* GameVoyage+Hierarchy.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEEC17822EBA580001FD105A /* GameVoyage+Hierarchy.swift */; };
-		FEEC17832EBA580000FD105A /* GameVoyage+Appearance.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEEC17832EBA580001FD105A /* GameVoyage+Appearance.swift */; };
-		FEEC17842EBA580000FD105A /* GameVoyage+TileManagement.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEEC17842EBA580001FD105A /* GameVoyage+TileManagement.swift */; };
-		FEEC17852EBA580000FD105A /* GameVoyage+Gestures.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEEC17852EBA580001FD105A /* GameVoyage+Gestures.swift */; };
-		FEEC17862EBA580000FD105A /* GameVoyage+Actions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEEC17862EBA580001FD105A /* GameVoyage+Actions.swift */; };
-		FEEC17872EBA580000FD105A /* GameVoyage+Timer.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEEC17872EBA580001FD105A /* GameVoyage+Timer.swift */; };
-		FEEC17882EBA580000FD105A /* RecordsVoyage.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEEC17882EBA580001FD105A /* RecordsVoyage.swift */; };
-		FEEC17892EBA580000FD105A /* RecordsVoyage+Setup.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEEC17892EBA580001FD105A /* RecordsVoyage+Setup.swift */; };
-		FEEC178A2EBA580000FD105A /* RecordsVoyage+Actions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEEC178A2EBA580001FD105A /* RecordsVoyage+Actions.swift */; };
-		FEEC178B2EBA580000FD105A /* RecordsVoyage+TableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEEC178B2EBA580001FD105A /* RecordsVoyage+TableView.swift */; };
-		FEEC178C2EBA580000FD105A /* InstructionsVoyage.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEEC178C2EBA580001FD105A /* InstructionsVoyage.swift */; };
-		FEEC178D2EBA580000FD105A /* InstructionsVoyage+Setup.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEEC178D2EBA580001FD105A /* InstructionsVoyage+Setup.swift */; };
-		FEEC178E2EBA590000FD105A /* GameVoyage+Guidance.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEEC178E2EBA590001FD105A /* GameVoyage+Guidance.swift */; };
+		FEEC17812EBA580000FD105A /* PodrozGry.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEEC17812EBA580001FD105A /* PodrozGry.swift */; };
+		FEEC17822EBA580000FD105A /* PodrozGry+Hierarchia.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEEC17822EBA580001FD105A /* PodrozGry+Hierarchia.swift */; };
+		FEEC17832EBA580000FD105A /* PodrozGry+Wyglad.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEEC17832EBA580001FD105A /* PodrozGry+Wyglad.swift */; };
+		FEEC17842EBA580000FD105A /* PodrozGry+ZarzadzanieKafelkami.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEEC17842EBA580001FD105A /* PodrozGry+ZarzadzanieKafelkami.swift */; };
+		FEEC17852EBA580000FD105A /* PodrozGry+Gesty.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEEC17852EBA580001FD105A /* PodrozGry+Gesty.swift */; };
+		FEEC17862EBA580000FD105A /* PodrozGry+Akcje.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEEC17862EBA580001FD105A /* PodrozGry+Akcje.swift */; };
+		FEEC17872EBA580000FD105A /* PodrozGry+Czasomierz.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEEC17872EBA580001FD105A /* PodrozGry+Czasomierz.swift */; };
+		FEEC17882EBA580000FD105A /* PodrozRekordow.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEEC17882EBA580001FD105A /* PodrozRekordow.swift */; };
+		FEEC17892EBA580000FD105A /* PodrozRekordow+Konfiguracja.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEEC17892EBA580001FD105A /* PodrozRekordow+Konfiguracja.swift */; };
+		FEEC178A2EBA580000FD105A /* PodrozRekordow+Akcje.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEEC178A2EBA580001FD105A /* PodrozRekordow+Akcje.swift */; };
+		FEEC178B2EBA580000FD105A /* PodrozRekordow+Tabela.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEEC178B2EBA580001FD105A /* PodrozRekordow+Tabela.swift */; };
+		FEEC178C2EBA580000FD105A /* PodrozInstrukcji.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEEC178C2EBA580001FD105A /* PodrozInstrukcji.swift */; };
+		FEEC178D2EBA580000FD105A /* PodrozInstrukcji+Konfiguracja.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEEC178D2EBA580001FD105A /* PodrozInstrukcji+Konfiguracja.swift */; };
+		FEEC178E2EBA590000FD105A /* PodrozGry+Instrukcje.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEEC178E2EBA590001FD105A /* PodrozGry+Instrukcje.swift */; };
 		FEEC179F2EBA60B000FD105A /* GameVariant.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEEC179F2EBA60B001FD105A /* GameVariant.swift */; };
-		FEEC17A02EBA60B000FD105A /* GameVoyage+Variant.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEEC17A02EBA60B001FD105A /* GameVoyage+Variant.swift */; };
-		FEEC17B12EBA6A0000FD105A /* ModeSelectionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEEC17B12EBA6A0001FD105A /* ModeSelectionController.swift */; };
+		FEEC17A02EBA60B000FD105A /* PodrozGry+Wariant.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEEC17A02EBA60B001FD105A /* PodrozGry+Wariant.swift */; };
+		FEEC17B12EBA6A0000FD105A /* KontrolerWyboruTrybu.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEEC17B12EBA6A0001FD105A /* KontrolerWyboruTrybu.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -65,23 +65,23 @@
 		FEEC177E2EBA580001FD105A /* WelcomeVoyage+Appearance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "WelcomeVoyage+Appearance.swift"; sourceTree = "<group>"; };
 		FEEC177F2EBA580001FD105A /* WelcomeVoyage+Actions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "WelcomeVoyage+Actions.swift"; sourceTree = "<group>"; };
 		FEEC17802EBA580001FD105A /* TileVessel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TileVessel.swift; sourceTree = "<group>"; };
-		FEEC17812EBA580001FD105A /* GameVoyage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameVoyage.swift; sourceTree = "<group>"; };
-		FEEC17822EBA580001FD105A /* GameVoyage+Hierarchy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "GameVoyage+Hierarchy.swift"; sourceTree = "<group>"; };
-		FEEC17832EBA580001FD105A /* GameVoyage+Appearance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "GameVoyage+Appearance.swift"; sourceTree = "<group>"; };
-		FEEC17842EBA580001FD105A /* GameVoyage+TileManagement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "GameVoyage+TileManagement.swift"; sourceTree = "<group>"; };
-		FEEC17852EBA580001FD105A /* GameVoyage+Gestures.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "GameVoyage+Gestures.swift"; sourceTree = "<group>"; };
-		FEEC17862EBA580001FD105A /* GameVoyage+Actions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "GameVoyage+Actions.swift"; sourceTree = "<group>"; };
-		FEEC17872EBA580001FD105A /* GameVoyage+Timer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "GameVoyage+Timer.swift"; sourceTree = "<group>"; };
-		FEEC17882EBA580001FD105A /* RecordsVoyage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordsVoyage.swift; sourceTree = "<group>"; };
-		FEEC17892EBA580001FD105A /* RecordsVoyage+Setup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "RecordsVoyage+Setup.swift"; sourceTree = "<group>"; };
-		FEEC178A2EBA580001FD105A /* RecordsVoyage+Actions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "RecordsVoyage+Actions.swift"; sourceTree = "<group>"; };
-		FEEC178B2EBA580001FD105A /* RecordsVoyage+TableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "RecordsVoyage+TableView.swift"; sourceTree = "<group>"; };
-		FEEC178C2EBA580001FD105A /* InstructionsVoyage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstructionsVoyage.swift; sourceTree = "<group>"; };
-		FEEC178D2EBA580001FD105A /* InstructionsVoyage+Setup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "InstructionsVoyage+Setup.swift"; sourceTree = "<group>"; };
-		FEEC178E2EBA590001FD105A /* GameVoyage+Guidance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "GameVoyage+Guidance.swift"; sourceTree = "<group>"; };
+		FEEC17812EBA580001FD105A /* PodrozGry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PodrozGry.swift; sourceTree = "<group>"; };
+		FEEC17822EBA580001FD105A /* PodrozGry+Hierarchia.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PodrozGry+Hierarchia.swift"; sourceTree = "<group>"; };
+		FEEC17832EBA580001FD105A /* PodrozGry+Wyglad.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PodrozGry+Wyglad.swift"; sourceTree = "<group>"; };
+		FEEC17842EBA580001FD105A /* PodrozGry+ZarzadzanieKafelkami.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PodrozGry+ZarzadzanieKafelkami.swift"; sourceTree = "<group>"; };
+		FEEC17852EBA580001FD105A /* PodrozGry+Gesty.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PodrozGry+Gesty.swift"; sourceTree = "<group>"; };
+		FEEC17862EBA580001FD105A /* PodrozGry+Akcje.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PodrozGry+Akcje.swift"; sourceTree = "<group>"; };
+		FEEC17872EBA580001FD105A /* PodrozGry+Czasomierz.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PodrozGry+Czasomierz.swift"; sourceTree = "<group>"; };
+		FEEC17882EBA580001FD105A /* PodrozRekordow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PodrozRekordow.swift; sourceTree = "<group>"; };
+		FEEC17892EBA580001FD105A /* PodrozRekordow+Konfiguracja.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PodrozRekordow+Konfiguracja.swift"; sourceTree = "<group>"; };
+		FEEC178A2EBA580001FD105A /* PodrozRekordow+Akcje.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PodrozRekordow+Akcje.swift"; sourceTree = "<group>"; };
+		FEEC178B2EBA580001FD105A /* PodrozRekordow+Tabela.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PodrozRekordow+Tabela.swift"; sourceTree = "<group>"; };
+		FEEC178C2EBA580001FD105A /* PodrozInstrukcji.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PodrozInstrukcji.swift; sourceTree = "<group>"; };
+		FEEC178D2EBA580001FD105A /* PodrozInstrukcji+Konfiguracja.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PodrozInstrukcji+Konfiguracja.swift"; sourceTree = "<group>"; };
+		FEEC178E2EBA590001FD105A /* PodrozGry+Instrukcje.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PodrozGry+Instrukcje.swift"; sourceTree = "<group>"; };
 		FEEC179F2EBA60B001FD105A /* GameVariant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameVariant.swift; sourceTree = "<group>"; };
-		FEEC17A02EBA60B001FD105A /* GameVoyage+Variant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "GameVoyage+Variant.swift"; sourceTree = "<group>"; };
-		FEEC17B12EBA6A0001FD105A /* ModeSelectionController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModeSelectionController.swift; sourceTree = "<group>"; };
+		FEEC17A02EBA60B001FD105A /* PodrozGry+Wariant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PodrozGry+Wariant.swift"; sourceTree = "<group>"; };
+		FEEC17B12EBA6A0001FD105A /* KontrolerWyboruTrybu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KontrolerWyboruTrybu.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -180,15 +180,15 @@
 		FEEC17D72EBCDC8A00FD105A /* Game */ = {
 			isa = PBXGroup;
 			children = (
-				FEEC17812EBA580001FD105A /* GameVoyage.swift */,
-				FEEC17822EBA580001FD105A /* GameVoyage+Hierarchy.swift */,
-				FEEC17832EBA580001FD105A /* GameVoyage+Appearance.swift */,
-				FEEC17842EBA580001FD105A /* GameVoyage+TileManagement.swift */,
-				FEEC17852EBA580001FD105A /* GameVoyage+Gestures.swift */,
-				FEEC17862EBA580001FD105A /* GameVoyage+Actions.swift */,
-				FEEC17872EBA580001FD105A /* GameVoyage+Timer.swift */,
-				FEEC17A02EBA60B001FD105A /* GameVoyage+Variant.swift */,
-				FEEC178E2EBA590001FD105A /* GameVoyage+Guidance.swift */,
+				FEEC17812EBA580001FD105A /* PodrozGry.swift */,
+				FEEC17822EBA580001FD105A /* PodrozGry+Hierarchia.swift */,
+				FEEC17832EBA580001FD105A /* PodrozGry+Wyglad.swift */,
+				FEEC17842EBA580001FD105A /* PodrozGry+ZarzadzanieKafelkami.swift */,
+				FEEC17852EBA580001FD105A /* PodrozGry+Gesty.swift */,
+				FEEC17862EBA580001FD105A /* PodrozGry+Akcje.swift */,
+				FEEC17872EBA580001FD105A /* PodrozGry+Czasomierz.swift */,
+				FEEC17A02EBA60B001FD105A /* PodrozGry+Wariant.swift */,
+				FEEC178E2EBA590001FD105A /* PodrozGry+Instrukcje.swift */,
 			);
 			path = Game;
 			sourceTree = "<group>";
@@ -196,7 +196,7 @@
 		FEEC17D82EBCDC9000FD105A /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				FEEC17B12EBA6A0001FD105A /* ModeSelectionController.swift */,
+				FEEC17B12EBA6A0001FD105A /* KontrolerWyboruTrybu.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -204,10 +204,10 @@
 		FEEC17D92EBCDC9800FD105A /* Records */ = {
 			isa = PBXGroup;
 			children = (
-				FEEC17882EBA580001FD105A /* RecordsVoyage.swift */,
-				FEEC17892EBA580001FD105A /* RecordsVoyage+Setup.swift */,
-				FEEC178A2EBA580001FD105A /* RecordsVoyage+Actions.swift */,
-				FEEC178B2EBA580001FD105A /* RecordsVoyage+TableView.swift */,
+				FEEC17882EBA580001FD105A /* PodrozRekordow.swift */,
+				FEEC17892EBA580001FD105A /* PodrozRekordow+Konfiguracja.swift */,
+				FEEC178A2EBA580001FD105A /* PodrozRekordow+Akcje.swift */,
+				FEEC178B2EBA580001FD105A /* PodrozRekordow+Tabela.swift */,
 			);
 			path = Records;
 			sourceTree = "<group>";
@@ -215,8 +215,8 @@
 		FEEC17DA2EBCDCA000FD105A /* Instructions */ = {
 			isa = PBXGroup;
 			children = (
-				FEEC178C2EBA580001FD105A /* InstructionsVoyage.swift */,
-				FEEC178D2EBA580001FD105A /* InstructionsVoyage+Setup.swift */,
+				FEEC178C2EBA580001FD105A /* PodrozInstrukcji.swift */,
+				FEEC178D2EBA580001FD105A /* PodrozInstrukcji+Konfiguracja.swift */,
 			);
 			path = Instructions;
 			sourceTree = "<group>";
@@ -341,9 +341,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FEEC17B12EBA6A0000FD105A /* ModeSelectionController.swift in Sources */,
+				FEEC17B12EBA6A0000FD105A /* KontrolerWyboruTrybu.swift in Sources */,
 				FEEC179F2EBA60B000FD105A /* GameVariant.swift in Sources */,
-				FEEC17A02EBA60B000FD105A /* GameVoyage+Variant.swift in Sources */,
+				FEEC17A02EBA60B000FD105A /* PodrozGry+Wariant.swift in Sources */,
 				FEEC176F2EBA574100FD105A /* AppDelegate.swift in Sources */,
 				FEEC17782EBA57C800FD105A /* MultiSortImages.swift in Sources */,
 				FEEC17702EBA574100FD105A /* MultiSort.xcdatamodeld in Sources */,
@@ -356,20 +356,20 @@
 				FEEC177E2EBA580000FD105A /* WelcomeVoyage+Appearance.swift in Sources */,
 				FEEC177F2EBA580000FD105A /* WelcomeVoyage+Actions.swift in Sources */,
 				FEEC17802EBA580000FD105A /* TileVessel.swift in Sources */,
-				FEEC17812EBA580000FD105A /* GameVoyage.swift in Sources */,
-				FEEC17822EBA580000FD105A /* GameVoyage+Hierarchy.swift in Sources */,
-				FEEC17832EBA580000FD105A /* GameVoyage+Appearance.swift in Sources */,
-				FEEC17842EBA580000FD105A /* GameVoyage+TileManagement.swift in Sources */,
-				FEEC17852EBA580000FD105A /* GameVoyage+Gestures.swift in Sources */,
-				FEEC17862EBA580000FD105A /* GameVoyage+Actions.swift in Sources */,
-				FEEC17872EBA580000FD105A /* GameVoyage+Timer.swift in Sources */,
-				FEEC178E2EBA590000FD105A /* GameVoyage+Guidance.swift in Sources */,
-				FEEC17882EBA580000FD105A /* RecordsVoyage.swift in Sources */,
-				FEEC17892EBA580000FD105A /* RecordsVoyage+Setup.swift in Sources */,
-				FEEC178A2EBA580000FD105A /* RecordsVoyage+Actions.swift in Sources */,
-				FEEC178B2EBA580000FD105A /* RecordsVoyage+TableView.swift in Sources */,
-				FEEC178C2EBA580000FD105A /* InstructionsVoyage.swift in Sources */,
-				FEEC178D2EBA580000FD105A /* InstructionsVoyage+Setup.swift in Sources */,
+				FEEC17812EBA580000FD105A /* PodrozGry.swift in Sources */,
+				FEEC17822EBA580000FD105A /* PodrozGry+Hierarchia.swift in Sources */,
+				FEEC17832EBA580000FD105A /* PodrozGry+Wyglad.swift in Sources */,
+				FEEC17842EBA580000FD105A /* PodrozGry+ZarzadzanieKafelkami.swift in Sources */,
+				FEEC17852EBA580000FD105A /* PodrozGry+Gesty.swift in Sources */,
+				FEEC17862EBA580000FD105A /* PodrozGry+Akcje.swift in Sources */,
+				FEEC17872EBA580000FD105A /* PodrozGry+Czasomierz.swift in Sources */,
+				FEEC178E2EBA590000FD105A /* PodrozGry+Instrukcje.swift in Sources */,
+				FEEC17882EBA580000FD105A /* PodrozRekordow.swift in Sources */,
+				FEEC17892EBA580000FD105A /* PodrozRekordow+Konfiguracja.swift in Sources */,
+				FEEC178A2EBA580000FD105A /* PodrozRekordow+Akcje.swift in Sources */,
+				FEEC178B2EBA580000FD105A /* PodrozRekordow+Tabela.swift in Sources */,
+				FEEC178C2EBA580000FD105A /* PodrozInstrukcji.swift in Sources */,
+				FEEC178D2EBA580000FD105A /* PodrozInstrukcji+Konfiguracja.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -420,7 +420,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.MultiSort.ms;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
@@ -458,7 +458,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.MultiSort.ms;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";

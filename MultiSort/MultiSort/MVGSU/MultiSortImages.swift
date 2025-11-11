@@ -1,63 +1,55 @@
-//
-//  MultiSortImages.swift
-//  MultiSort
-//
-//  Created by Zhao on 2025/11/4.
-//
 
 import Foundation
 import UIKit
 
-// MARK: - TileElement Structure
-struct TileElement {
-    let portrayal: UIImage
-    let magnitude: Int
-    let category: TileCategory
+struct ElementKafelka {
+    let wizerunek: UIImage
+    let wartosc: Int
+    let kategoria: KategoriaKafelka
     
-    enum TileCategory: String, CaseIterable {
-        case circles = "Ltong"
-        case bamboo = "Mtiao"
-        case characters = "Nwan"
+    enum KategoriaKafelka: String, CaseIterable {
+        case kola = "Ltong"
+        case bambus = "Mtiao"
+        case znaki = "Nwan"
     }
 }
 
-// MARK: - TileRepository
-class TileRepository {
-    static let singleton = TileRepository()
+class RepozytoriumKafelkow {
+    static let singleton = RepozytoriumKafelkow()
     
-    let circlesTiles: [TileElement]
-    let bambooTiles: [TileElement]
-    let charactersTiles: [TileElement]
+    let kafelkiKol: [ElementKafelka]
+    let kafelkiBambusa: [ElementKafelka]
+    let kafelkiZnakow: [ElementKafelka]
     
     private init() {
-        circlesTiles = (1...9).compactMap { index in
-            guard let portrayal = UIImage(named: "Ltong \(index)") else { return nil }
-            return TileElement(portrayal: portrayal, magnitude: index, category: .circles)
+        kafelkiKol = (1...9).compactMap { indeks in
+            guard let wizerunek = UIImage(named: "Ltong \(indeks)") else { return nil }
+            return ElementKafelka(wizerunek: wizerunek, wartosc: indeks, kategoria: .kola)
         }
         
-        bambooTiles = (1...9).compactMap { index in
-            guard let portrayal = UIImage(named: "Mtiao \(index)") else { return nil }
-            return TileElement(portrayal: portrayal, magnitude: index, category: .bamboo)
+        kafelkiBambusa = (1...9).compactMap { indeks in
+            guard let wizerunek = UIImage(named: "Mtiao \(indeks)") else { return nil }
+            return ElementKafelka(wizerunek: wizerunek, wartosc: indeks, kategoria: .bambus)
         }
         
-        charactersTiles = (1...9).compactMap { index in
-            guard let portrayal = UIImage(named: "Nwan \(index)") else { return nil }
-            return TileElement(portrayal: portrayal, magnitude: index, category: .characters)
+        kafelkiZnakow = (1...9).compactMap { indeks in
+            guard let wizerunek = UIImage(named: "Nwan \(indeks)") else { return nil }
+            return ElementKafelka(wizerunek: wizerunek, wartosc: indeks, kategoria: .znaki)
         }
     }
     
-    func retrieveTilesForCategory(_ category: TileElement.TileCategory) -> [TileElement] {
-        switch category {
-        case .circles:
-            return circlesTiles
-        case .bamboo:
-            return bambooTiles
-        case .characters:
-            return charactersTiles
+    func pobierzKafelkiDlaKategorii(_ kategoria: ElementKafelka.KategoriaKafelka) -> [ElementKafelka] {
+        switch kategoria {
+        case .kola:
+            return kafelkiKol
+        case .bambus:
+            return kafelkiBambusa
+        case .znaki:
+            return kafelkiZnakow
         }
     }
     
-    func retrieveAllCategories() -> [[TileElement]] {
-        return [circlesTiles, bambooTiles, charactersTiles]
+    func pobierzWszystkieKategorie() -> [[ElementKafelka]] {
+        return [kafelkiKol, kafelkiBambusa, kafelkiZnakow]
     }
 }

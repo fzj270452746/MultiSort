@@ -1,122 +1,113 @@
-//
-//  ScoreArchive.swift
-//  MultiSort
-//
-//  Created by Zhao on 2025/11/4.
-//
 
 import Foundation
 
-// MARK: - GameMemorable
-struct GameMemorable: Codable {
-    let timestamp: Date
-    let elapsedSeconds: Int
-    let achievedScore: Int
-    let wasPerfect: Bool
-    let variantIdentifier: String
-    let moveFootprint: Int?
-    let residualTime: Int?
-    let usedRewind: Bool?
+struct PamiatkaGry: Codable {
+    let znacznikCzasu: Date
+    let uplywajaceSekundy: Int
+    let osiagnietyWynik: Int
+    let byloIdealne: Bool
+    let identyfikatorWariantu: String
+    let sladRuchu: Int?
+    let czasRezydualny: Int?
+    let uzytoPrzewijania: Bool?
     
-    enum CodingKeys: String, CodingKey {
-        case timestamp
-        case elapsedSeconds
-        case achievedScore
-        case wasPerfect
-        case variantIdentifier
-        case moveFootprint
-        case residualTime
-        case usedRewind
+    enum KluczeKodowania: String, CodingKey {
+        case znacznikCzasu
+        case uplywajaceSekundy
+        case osiagnietyWynik
+        case byloIdealne
+        case identyfikatorWariantu
+        case sladRuchu
+        case czasRezydualny
+        case uzytoPrzewijania
     }
     
-    init(timestamp: Date, elapsedSeconds: Int, achievedScore: Int, wasPerfect: Bool, variantIdentifier: String, moveFootprint: Int?, residualTime: Int?, usedRewind: Bool?) {
-        self.timestamp = timestamp
-        self.elapsedSeconds = elapsedSeconds
-        self.achievedScore = achievedScore
-        self.wasPerfect = wasPerfect
-        self.variantIdentifier = variantIdentifier
-        self.moveFootprint = moveFootprint
-        self.residualTime = residualTime
-        self.usedRewind = usedRewind
+    init(znacznikCzasu: Date, uplywajaceSekundy: Int, osiagnietyWynik: Int, byloIdealne: Bool, identyfikatorWariantu: String, sladRuchu: Int?, czasRezydualny: Int?, uzytoPrzewijania: Bool?) {
+        self.znacznikCzasu = znacznikCzasu
+        self.uplywajaceSekundy = uplywajaceSekundy
+        self.osiagnietyWynik = osiagnietyWynik
+        self.byloIdealne = byloIdealne
+        self.identyfikatorWariantu = identyfikatorWariantu
+        self.sladRuchu = sladRuchu
+        self.czasRezydualny = czasRezydualny
+        self.uzytoPrzewijania = uzytoPrzewijania
     }
     
-    init(from decoder: Decoder) throws {
-        let container = try decoder.container(keyedBy: CodingKeys.self)
-        timestamp = try container.decode(Date.self, forKey: .timestamp)
-        elapsedSeconds = try container.decode(Int.self, forKey: .elapsedSeconds)
-        achievedScore = try container.decode(Int.self, forKey: .achievedScore)
-        wasPerfect = try container.decode(Bool.self, forKey: .wasPerfect)
-        variantIdentifier = try container.decodeIfPresent(String.self, forKey: .variantIdentifier) ?? GameVariant.classicFlow.identifier
-        moveFootprint = try container.decodeIfPresent(Int.self, forKey: .moveFootprint)
-        residualTime = try container.decodeIfPresent(Int.self, forKey: .residualTime)
-        usedRewind = try container.decodeIfPresent(Bool.self, forKey: .usedRewind)
+    init(from dekoder: Decoder) throws {
+        let kontener = try dekoder.container(keyedBy: KluczeKodowania.self)
+        znacznikCzasu = try kontener.decode(Date.self, forKey: .znacznikCzasu)
+        uplywajaceSekundy = try kontener.decode(Int.self, forKey: .uplywajaceSekundy)
+        osiagnietyWynik = try kontener.decode(Int.self, forKey: .osiagnietyWynik)
+        byloIdealne = try kontener.decode(Bool.self, forKey: .byloIdealne)
+        identyfikatorWariantu = try kontener.decodeIfPresent(String.self, forKey: .identyfikatorWariantu) ?? WariantGry.klasycznyPrzeplyw.identyfikator
+        sladRuchu = try kontener.decodeIfPresent(Int.self, forKey: .sladRuchu)
+        czasRezydualny = try kontener.decodeIfPresent(Int.self, forKey: .czasRezydualny)
+        uzytoPrzewijania = try kontener.decodeIfPresent(Bool.self, forKey: .uzytoPrzewijania)
     }
     
-    func encode(to encoder: Encoder) throws {
-        var container = encoder.container(keyedBy: CodingKeys.self)
-        try container.encode(timestamp, forKey: .timestamp)
-        try container.encode(elapsedSeconds, forKey: .elapsedSeconds)
-        try container.encode(achievedScore, forKey: .achievedScore)
-        try container.encode(wasPerfect, forKey: .wasPerfect)
-        try container.encode(variantIdentifier, forKey: .variantIdentifier)
-        try container.encodeIfPresent(moveFootprint, forKey: .moveFootprint)
-        try container.encodeIfPresent(residualTime, forKey: .residualTime)
-        try container.encodeIfPresent(usedRewind, forKey: .usedRewind)
+    func encode(to enkoder: Encoder) throws {
+        var kontener = enkoder.container(keyedBy: KluczeKodowania.self)
+        try kontener.encode(znacznikCzasu, forKey: .znacznikCzasu)
+        try kontener.encode(uplywajaceSekundy, forKey: .uplywajaceSekundy)
+        try kontener.encode(osiagnietyWynik, forKey: .osiagnietyWynik)
+        try kontener.encode(byloIdealne, forKey: .byloIdealne)
+        try kontener.encode(identyfikatorWariantu, forKey: .identyfikatorWariantu)
+        try kontener.encodeIfPresent(sladRuchu, forKey: .sladRuchu)
+        try kontener.encodeIfPresent(czasRezydualny, forKey: .czasRezydualny)
+        try kontener.encodeIfPresent(uzytoPrzewijania, forKey: .uzytoPrzewijania)
     }
     
-    var formattedDuration: String {
-        let minutes = elapsedSeconds / 60
-        let seconds = elapsedSeconds % 60
-        return String(format: "%02d:%02d", minutes, seconds)
+    var sformatowanyCzasTrwania: String {
+        let minuty = uplywajaceSekundy / 60
+        let sekundy = uplywajaceSekundy % 60
+        return String(format: "%02d:%02d", minuty, sekundy)
     }
     
-    var formattedDate: String {
-        let formatter = DateFormatter()
-        formatter.dateStyle = .medium
-        formatter.timeStyle = .short
-        return formatter.string(from: timestamp)
+    var sformatowanaData: String {
+        let formatujnik = DateFormatter()
+        formatujnik.dateStyle = .medium
+        formatujnik.timeStyle = .short
+        return formatujnik.string(from: znacznikCzasu)
     }
     
-    var variantDisplayName: String {
-        GameVariant.variant(for: variantIdentifier).displayName
+    var nazwaWyswietlanaWariantu: String {
+        WariantGry.wariant(dla: identyfikatorWariantu).nazwaWyswietlana
     }
     
-    var formattedResidualTime: String? {
-        guard let residualTime = residualTime else { return nil }
-        let minutes = residualTime / 60
-        let seconds = residualTime % 60
-        return String(format: "%02d:%02d", minutes, seconds)
+    var sformatowanyCzasRezydualny: String? {
+        guard let czasRezydualny = czasRezydualny else { return nil }
+        let minuty = czasRezydualny / 60
+        let sekundy = czasRezydualny % 60
+        return String(format: "%02d:%02d", minuty, sekundy)
     }
 }
 
-// MARK: - ScoreArchive
-class ScoreArchive {
-    static let singleton = ScoreArchive()
+class ArchiwumWynikow {
+    static let singleton = ArchiwumWynikow()
     
-    private let memorableKey = VibrantConstants.StorageKeys.gameRecords
+    private let kluczPamiatki = StaleZywotne.KluczeMagazynu.rekordyGry
     
     private init() {}
     
-    func preserveMemorable(_ memorable: GameMemorable) {
-        var memorables = retrieveMemorables()
-        memorables.append(memorable)
-        memorables.sort { $0.achievedScore > $1.achievedScore }
+    func zachowajPamiatke(_ pamiatka: PamiatkaGry) {
+        var pamiatki = pobierzPamiatki()
+        pamiatki.append(pamiatka)
+        pamiatki.sort { $0.osiagnietyWynik > $1.osiagnietyWynik }
         
-        if let encoded = try? JSONEncoder().encode(memorables) {
-            UserDefaults.standard.set(encoded, forKey: memorableKey)
+        if let zakodowane = try? JSONEncoder().encode(pamiatki) {
+            UserDefaults.standard.set(zakodowane, forKey: kluczPamiatki)
         }
     }
     
-    func retrieveMemorables() -> [GameMemorable] {
-        guard let data = UserDefaults.standard.data(forKey: memorableKey),
-              let decoded = try? JSONDecoder().decode([GameMemorable].self, from: data) else {
+    func pobierzPamiatki() -> [PamiatkaGry] {
+        guard let dane = UserDefaults.standard.data(forKey: kluczPamiatki),
+              let zdekodowane = try? JSONDecoder().decode([PamiatkaGry].self, from: dane) else {
             return []
         }
-        return decoded
+        return zdekodowane
     }
     
-    func obliterateAllMemorables() {
-        UserDefaults.standard.removeObject(forKey: memorableKey)
+    func usunWszystkiePamiatki() {
+        UserDefaults.standard.removeObject(forKey: kluczPamiatki)
     }
 }
-

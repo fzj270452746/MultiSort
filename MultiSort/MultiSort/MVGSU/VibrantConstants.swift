@@ -1,59 +1,53 @@
 
-
 import UIKit
 
-struct VibrantConstants {
+struct StaleZywotne {
     
-    // MARK: - Colors
-    struct Palette {
-        static let primaryTint = UIColor(red: 0.95, green: 0.77, blue: 0.06, alpha: 1.0)
-        static let secondaryTint = UIColor(red: 0.85, green: 0.33, blue: 0.24, alpha: 1.0)
-        static let accentTint = UIColor(red: 0.20, green: 0.60, blue: 0.86, alpha: 1.0)
-        static let overlayDim = UIColor(white: 0, alpha: 0.6)
-        static let pureWhite = UIColor.white
-        static let deepShadow = UIColor(white: 0.0, alpha: 0.6)
+    struct Paleta {
+        static let odcienPodstawowy = UIColor(red: 0.95, green: 0.77, blue: 0.06, alpha: 1.0)
+        static let odcienDrugorzedny = UIColor(red: 0.85, green: 0.33, blue: 0.24, alpha: 1.0)
+        static let odcienAkcentowy = UIColor(red: 0.20, green: 0.60, blue: 0.86, alpha: 1.0)
+        static let przyciemnienieNakladki = UIColor(white: 0, alpha: 0.6)
+        static let czystyBialy = UIColor.white
+        static let glebokiCien = UIColor(white: 0.0, alpha: 0.6)
     }
     
-    // MARK: - Dimensions
-    struct Measurements {
-        static var tileWidth: CGFloat = 45
-        static var tileHeight: CGFloat = 55
-        static var tileSpacing: CGFloat = 4
-        static let rowSpacing: CGFloat = 16
-        static var columnSpacing: CGFloat = 20
-        static let cornerRadius: CGFloat = 12
-        static let buttonHeight: CGFloat = 50
-        static let padding: CGFloat = 20
+    struct Wymiary {
+        static var szerokoscKafelka: CGFloat = 45
+        static var wysokoscKafelka: CGFloat = 55
+        static var odstepKafelkow: CGFloat = 4
+        static let odstepWierszy: CGFloat = 16
+        static var odstepKolumn: CGFloat = 20
+        static let promienZakraglenia: CGFloat = 12
+        static let wysokoscPrzycisku: CGFloat = 50
+        static let wciecie: CGFloat = 20
     }
     
-    // MARK: - Animation
-    struct Motion {
-        static let standardDuration: TimeInterval = 0.3
-        static let bounceDuration: TimeInterval = 0.6
-        static let springDamping: CGFloat = 0.7
-        static let springVelocity: CGFloat = 0.5
+    struct Ruch {
+        static let czasTrwaniaStandardowy: TimeInterval = 0.3
+        static let czasTrwaniaOdbicia: TimeInterval = 0.6
+        static let tlumienieSprezyny: CGFloat = 0.7
+        static let predkoscSprezyny: CGFloat = 0.5
     }
     
-    // MARK: - Strings
-    struct Text {
-        static let appTitle = "Mahjong MultiSort"
-        static let startGame = "Start Game"
-        static let instructions = "Instructions"
-        static let records = "Records"
-        static let confirmOrder = "Confirm"
-        static let shuffle = "Shuffle"
-        static let backButton = "Back"
-        static let timer = "Time"
-        static let score = "Score"
-        static let gameComplete = "Congratulations!"
-        static let perfectSort = "Perfect Sorting!"
-        static let tryAgain = "Try Again"
-        static let deleteAll = "Delete All"
-        static let noRecords = "No game records yet. Start playing to create your first record!"
+    struct Tekst {
+        static let tytulAplikacji = "Mahjong MultiSort"
+        static let rozpocznijGre = "Start Game"
+        static let instrukcje = "Instructions"
+        static let rekordy = "Records"
+        static let potwierdzKolejnosc = "Confirm"
+        static let tasuj = "Shuffle"
+        static let przyciskWstecz = "Back"
+        static let czasomierz = "Time"
+        static let wynik = "Score"
+        static let graZakonczona = "Congratulations!"
+        static let idealneSortowanie = "Perfect Sorting!"
+        static let sprobujPonownie = "Try Again"
+        static let usunWszystko = "Delete All"
+        static let brakRekordow = "No game records yet. Start playing to create your first record!"
         
-        // Instructions
-        static let instructionsTitle = "How to Play"
-        static let instructionsContent = """
+        static let tytulInstrukcji = "How to Play"
+        static let trescInstrukcji = """
         Welcome to Mahjong MultiSort!
         
         📋 Objective:
@@ -81,9 +75,7 @@ struct VibrantConstants {
         """
     }
     
-    // MARK: - UserDefaults Keys
-    struct StorageKeys {
-        static let gameRecords = "com.multisort.gameRecords"
+    struct KluczeMagazynu {
+        static let rekordyGry = "com.multisort.gameRecords"
     }
 }
-

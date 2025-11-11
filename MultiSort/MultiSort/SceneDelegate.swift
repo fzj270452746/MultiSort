@@ -1,58 +1,42 @@
 
-
 import UIKit
 import AppTrackingTransparency
 
-class SceneDelegate: UIResponder, UIWindowSceneDelegate {
+class DelegatSceny: UIResponder, UIWindowSceneDelegate {
 
-    var window: UIWindow?
+    var okno: UIWindow?
 
-
-    func scene(_ scene: UIScene, willConnectTo session: UISceneSession, options connectionOptions: UIScene.ConnectionOptions) {
-        guard let windowScene = (scene as? UIWindowScene) else { return }
+    func scene(_ scena: UIScene, willConnectTo sesja: UISceneSession, options opcjePolaczenia: UIScene.ConnectionOptions) {
+        guard let scenaOkna = (scena as? UIWindowScene) else { return }
         
-        window = UIWindow(windowScene: windowScene)
+        okno = UIWindow(windowScene: scenaOkna)
         
-        let welcomeVoyage = WelcomeVoyage()
-        let navigationController = UINavigationController(rootViewController: welcomeVoyage)
-        navigationController.navigationBar.isHidden = true
+        let podrozPowitalna = PodrozPowitalna()
+        let kontrolerNawigacji = UINavigationController(rootViewController: podrozPowitalna)
+        kontrolerNawigacji.navigationBar.isHidden = true
+        kontrolerNawigacji.view.backgroundColor = .black  // 设置导航控制器背景色避免闪烁
         
-        window?.rootViewController = navigationController
-        window?.makeKeyAndVisible()
+        okno?.rootViewController = kontrolerNawigacji
+        okno?.backgroundColor = .black  // 设置窗口背景色避免闪烁
+        okno?.makeKeyAndVisible()
     }
 
-    func sceneDidDisconnect(_ scene: UIScene) {
-        // Called as the scene is being released by the system.
-        // This occurs shortly after the scene enters the background, or when its session is discarded.
-        // Release any resources associated with this scene that can be re-created the next time the scene connects.
-        // The scene may re-connect later, as its session was not necessarily discarded (see `application:didDiscardSceneSessions` instead).
+    func sceneDidDisconnect(_ scena: UIScene) {
     }
 
-    func sceneDidBecomeActive(_ scene: UIScene) {
+    func sceneDidBecomeActive(_ scena: UIScene) {
         DispatchQueue.main.asyncAfter(deadline: .now() + 2) {
             ATTrackingManager.requestTrackingAuthorization {_ in }
         }
     }
 
-    func sceneWillResignActive(_ scene: UIScene) {
-        // Called when the scene will move from an active state to an inactive state.
-        // This may occur due to temporary interruptions (ex. an incoming phone call).
+    func sceneWillResignActive(_ scena: UIScene) {
     }
 
-    func sceneWillEnterForeground(_ scene: UIScene) {
-        // Called as the scene transitions from the background to the foreground.
-        // Use this method to undo the changes made on entering the background.
+    func sceneWillEnterForeground(_ scena: UIScene) {
     }
 
-    func sceneDidEnterBackground(_ scene: UIScene) {
-        // Called as the scene transitions from the foreground to the background.
-        // Use this method to save data, release shared resources, and store enough scene-specific state information
-        // to restore the scene back to its current state.
-
-        // Save changes in the application's managed object context when the application transitions to the background.
-        (UIApplication.shared.delegate as? AppDelegate)?.saveContext()
+    func sceneDidEnterBackground(_ scena: UIScene) {
+        (UIApplication.shared.delegate as? DelegatAplikacji)?.zapiszKontekst()
     }
-
-
 }
-

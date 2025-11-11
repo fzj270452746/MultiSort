@@ -1,190 +1,181 @@
-//
-//  GameVariant.swift
-//  MultiSort
-//
-//  Created by Zhao on 2025/11/6.
-//
 
 import Foundation
 import UIKit
 
-// MARK: - GameVariant
-enum GameVariant: String, Codable, CaseIterable {
-    case classicFlow = "classic_flow"
-    case mindfulShuffle = "mindful_shuffle"
+enum WariantGry: String, Codable, CaseIterable {
+    case klasycznyPrzeplyw = "classic_flow"
+    case swiadomeTasowanie = "mindful_shuffle"
     
-    struct TimerDisposition: Codable {
-        enum Style: String, Codable {
-            case countUp
-            case countDown
+    struct UstawienieCzasomierza: Codable {
+        enum Styl: String, Codable {
+            case odliczanieWGore
+            case odliczanieWDol
         }
-        let style: Style
-        let span: Int
+        let styl: Styl
+        let czasTrwania: Int
     }
     
-    var displayName: String {
+    var nazwaWyswietlana: String {
         switch self {
-        case .classicFlow:
+        case .klasycznyPrzeplyw:
             return "Classic Flow"
-        case .mindfulShuffle:
+        case .swiadomeTasowanie:
             return "Mindful Shuffle"
         }
     }
     
-    var bannerText: String {
+    var tekstBanera: String {
         switch self {
-        case .classicFlow:
+        case .klasycznyPrzeplyw:
             return "Mode: Classic Flow"
-        case .mindfulShuffle:
+        case .swiadomeTasowanie:
             return "Mode: Mindful Shuffle"
         }
     }
     
-    var descriptiveBlurb: String {
+    var opisowyTekst: String {
         switch self {
-        case .classicFlow:
+        case .klasycznyPrzeplyw:
             return "Sort freely and chase the highest score."
-        case .mindfulShuffle:
+        case .swiadomeTasowanie:
             return "Follow the reference ordering with limited moves and a ticking clock."
         }
     }
     
-    var timerDisposition: TimerDisposition {
+    var ustawienieCzasomierza: UstawienieCzasomierza {
         switch self {
-        case .classicFlow:
-            return TimerDisposition(style: .countUp, span: 0)
-        case .mindfulShuffle:
-            return TimerDisposition(style: .countDown, span: 180)
+        case .klasycznyPrzeplyw:
+            return UstawienieCzasomierza(styl: .odliczanieWGore, czasTrwania: 0)
+        case .swiadomeTasowanie:
+            return UstawienieCzasomierza(styl: .odliczanieWDol, czasTrwania: 180)
         }
     }
     
-    var moveAllowance: Int? {
+    var limitRuchow: Int? {
         switch self {
-        case .classicFlow:
+        case .klasycznyPrzeplyw:
             return nil
-        case .mindfulShuffle:
+        case .swiadomeTasowanie:
             return 30
         }
     }
     
-    var rewindAllowance: Int {
+    var limitPrzewijania: Int {
         switch self {
-        case .classicFlow:
+        case .klasycznyPrzeplyw:
             return 0
-        case .mindfulShuffle:
+        case .swiadomeTasowanie:
             return 1
         }
     }
     
-    var objectiveSequences: [[Int]] {
+    var sekwencjeCelow: [[Int]] {
         switch self {
-        case .classicFlow:
+        case .klasycznyPrzeplyw:
             return []
-        case .mindfulShuffle:
+        case .swiadomeTasowanie:
             return [Array(1...9)]
         }
     }
     
-    var moveLabelTitle: String {
+    var tytulEtykietyRuchu: String {
         switch self {
-        case .classicFlow:
+        case .klasycznyPrzeplyw:
             return ""
-        case .mindfulShuffle:
+        case .swiadomeTasowanie:
             return "Moves Remaining"
         }
     }
     
-    var allowsShuffle: Bool {
+    var pozwalaNaTasowanie: Bool {
         switch self {
-        case .classicFlow:
+        case .klasycznyPrzeplyw:
             return true
-        case .mindfulShuffle:
+        case .swiadomeTasowanie:
             return false
         }
     }
     
-    var usesTopHintPlacement: Bool {
+    var uzywaGornegoUmieszczeniaPodpowiedzi: Bool {
         switch self {
-        case .classicFlow:
+        case .klasycznyPrzeplyw:
             return false
-        case .mindfulShuffle:
+        case .swiadomeTasowanie:
             return true
         }
     }
     
-    var usesGridLayout: Bool {
+    var uzywaUkladuSiatki: Bool {
         switch self {
-        case .classicFlow:
+        case .klasycznyPrzeplyw:
             return false
-        case .mindfulShuffle:
+        case .swiadomeTasowanie:
             return true
         }
     }
     
-    var gridDimensions: (rows: Int, columns: Int) {
+    var wymiarySiatki: (wiersze: Int, kolumny: Int) {
         switch self {
-        case .classicFlow:
-            return (rows: 9, columns: 1)
-        case .mindfulShuffle:
-            return (rows: 3, columns: 3)
+        case .klasycznyPrzeplyw:
+            return (wiersze: 9, kolumny: 1)
+        case .swiadomeTasowanie:
+            return (wiersze: 3, kolumny: 3)
         }
     }
     
-    var movementAxis: NSLayoutConstraint.Axis {
+    var osRuchu: NSLayoutConstraint.Axis {
         switch self {
-        case .classicFlow:
+        case .klasycznyPrzeplyw:
             return .vertical
-        case .mindfulShuffle:
+        case .swiadomeTasowanie:
             return .horizontal
         }
     }
     
-    var usesSuitCycler: Bool {
+    var uzywaPrzelaczaniaKolorow: Bool {
         switch self {
-        case .classicFlow:
+        case .klasycznyPrzeplyw:
             return false
-        case .mindfulShuffle:
+        case .swiadomeTasowanie:
             return true
         }
     }
     
-    var defaultTileSpacing: CGFloat {
+    var domyslnyOdstepKafelkow: CGFloat {
         switch self {
-        case .classicFlow:
+        case .klasycznyPrzeplyw:
             return 4
-        case .mindfulShuffle:
+        case .swiadomeTasowanie:
             return 12
         }
     }
     
-    var crossAxisSpacing: CGFloat {
+    var odstepPrzecinajacyOsi: CGFloat {
         switch self {
-        case .classicFlow:
+        case .klasycznyPrzeplyw:
             return 20
-        case .mindfulShuffle:
+        case .swiadomeTasowanie:
             return 16
         }
     }
     
-    var preferredTileAspectRatio: CGFloat {
+    var preferowanyProporcjeKafelka: CGFloat {
         switch self {
-        case .classicFlow:
+        case .klasycznyPrzeplyw:
             return 55.0 / 45.0
-        case .mindfulShuffle:
+        case .swiadomeTasowanie:
             return 1.2
         }
     }
     
-    static func variant(for identifier: String) -> GameVariant {
-        return GameVariant(rawValue: identifier) ?? .classicFlow
+    static func wariant(dla identyfikator: String) -> WariantGry {
+        return WariantGry(rawValue: identyfikator) ?? .klasycznyPrzeplyw
     }
     
-    var identifier: String { rawValue }
+    var identyfikator: String { rawValue }
 }
 
-// MARK: - RewindCrate
-struct RewindCrate: Codable {
-    let vesselArrangement: [[Int]]
-    let movesRemaining: Int
+struct SkrzynkaPrzewijania: Codable {
+    let ukladNaczyn: [[Int]]
+    let pozostaleRuchy: Int
 }
-
